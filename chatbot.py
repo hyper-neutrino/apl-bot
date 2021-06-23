@@ -57,14 +57,14 @@ EVENTS = {
         
 
 # useful functions
-def log(msg, name="logs/log.txt",verbose=True): # Logging messages and errors | Appends <msg> to the log <name>, prints if verbose
+def log(msg, name="../logs/log.txt",verbose=True): # Logging messages and errors | Appends <msg> to the log <name>, prints if verbose
         msg=str(msg)
         with open(name, "ab") as f:
                 timeStr = str(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())))
                 f.write('{} {}\n'.format(timeStr,msg).encode('utf-8'))
                 if verbose: print('<Log> {}'.format(msg.encode('utf-8')))
 
-def logFile(r,name="logs/logFile.html"):  # logs the string in the file <name>. Will overwrite previous data.
+def logFile(r,name="../logs/logFile.html"):  # logs the string in the file <name>. Will overwrite previous data.
         with open(name, "wb") as f:
                 f.write(r.encode('utf-8'))
 
@@ -254,7 +254,7 @@ class Chatbot():
                                 tries += 1
                 return r
                         
-        def log(self, msg, name="logs/log.txt"): # Logging messages and errors | Appends <msg> to the log <name>, prints if self.verbose
+        def log(self, msg, name="../logs/log.txt"): # Logging messages and errors | Appends <msg> to the log <name>, prints if self.verbose
                 log(msg,name,verbose=self.verbose)
                 
         def login(self, host="codegolf.stackexchange.com"): # Login to SE

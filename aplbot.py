@@ -10,18 +10,6 @@ ws = {
   "\t": ["tabs", "tab"]
 }
 
-def RLE(x):
-  r = []
-  for k in x:
-    if r and k == r[-1][1]:
-      r[-1][0] += 1
-    else:
-      r.append([1, k])
-  return r
-
-def detect_shape(lines):
-  return f"{len(lines)} {max(map(len, lines))}⍴' '"
-
 def preparse(line):
   if line[0] == "⋄": line = line[1:]
   output = ""
