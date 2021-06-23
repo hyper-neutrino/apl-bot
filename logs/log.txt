@@ -1,0 +1,861 @@
+2021-06-23 01:45:42 --- NEW LOGIN ---
+2021-06-23 01:45:55 --- NEW LOGIN ---
+2021-06-23 01:46:46 Logging to SE - OK
+2021-06-23 01:46:46 Loading SE profile - OK
+2021-06-23 01:46:47 Got chat fkey : 958c1c0f65bcc0cfab60cb0b3d71621a
+2021-06-23 01:46:47 Login to the SE chat successful
+2021-06-23 01:46:48 Got activity {'t': 125821189, 'd': -1498606018}
+2021-06-23 01:48:32 --- NEW LOGIN ---
+2021-06-23 01:48:40 Logging to SE - OK
+2021-06-23 01:48:41 Loading SE profile - OK
+2021-06-23 01:48:41 Got chat fkey : 71743f1ee556e3b875c6f3afaca9cdd2
+2021-06-23 01:48:41 Login to the SE chat successful
+2021-06-23 01:48:42 Got activity {'t': 125821216, 'd': -1498606105}
+2021-06-23 01:48:45 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427324, 'content': 'test', 'id': 125821218, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417709}], 't': 125821218, 'd': 1}
+2021-06-23 01:48:53 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427332, 'content': '⎕&larr;test', 'id': 125821220, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417711}], 't': 125821220, 'd': 1}
+2021-06-23 01:49:07 --- NEW LOGIN ---
+2021-06-23 01:49:19 --- NEW LOGIN ---
+2021-06-23 01:49:33 Credidentials stored !
+2021-06-23 01:49:33 Logging to SE - OK
+2021-06-23 01:49:33 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:49:37 --- NEW LOGIN ---
+2021-06-23 01:49:40 Credidentials retrieved successfully
+2021-06-23 01:49:40 Logging to SE - OK
+2021-06-23 01:49:41 Caught by CAPTCHA
+2021-06-23 01:49:41 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:50:01 --- NEW LOGIN ---
+2021-06-23 01:50:20 Credidentials stored !
+2021-06-23 01:50:21 Logging to SE - OK
+2021-06-23 01:50:21 Caught by CAPTCHA
+2021-06-23 01:50:21 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:52:26 --- NEW LOGIN ---
+2021-06-23 01:52:29 Credidentials retrieved successfully
+2021-06-23 01:52:29 Logging to SE - OK
+2021-06-23 01:52:30 Loading SE profile - OK
+2021-06-23 01:52:30 Got chat fkey : 7dadd102b5bf2d84ab96f9e4d5ae8941
+2021-06-23 01:52:30 Login to the SE chat successful
+2021-06-23 01:52:31 Got activity {'t': 125821337, 'd': -1498606213}
+2021-06-23 01:52:33 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427553, 'content': '⎕&larr;test', 'id': 125821339, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417744}], 't': 125821339, 'd': 2}
+2021-06-23 01:53:05 Got activity {'t': 125821348, 'd': 1}
+2021-06-23 01:53:10 --- NEW LOGIN ---
+2021-06-23 01:53:12 Credidentials retrieved successfully
+2021-06-23 01:53:12 Logging to SE - OK
+2021-06-23 01:53:12 Caught by CAPTCHA
+2021-06-23 01:53:12 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:53:48 --- NEW LOGIN ---
+2021-06-23 01:53:50 Credidentials retrieved successfully
+2021-06-23 01:53:50 Logging to SE - OK
+2021-06-23 01:53:51 Loading SE profile - OK
+2021-06-23 01:53:51 Got chat fkey : bb80e2b23736d433485942e78d61b3ad
+2021-06-23 01:53:51 Login to the SE chat successful
+2021-06-23 01:53:52 Got activity {'t': 125821361, 'd': -1498606270}
+2021-06-23 01:53:54 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427633, 'content': '⎕&larr;test', 'id': 125821362, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417762}], 't': 125821362, 'd': 1}
+2021-06-23 01:54:14 --- NEW LOGIN ---
+2021-06-23 01:54:15 Credidentials retrieved successfully
+2021-06-23 01:54:15 Logging to SE - OK
+2021-06-23 01:54:15 Caught by CAPTCHA
+2021-06-23 01:54:15 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:54:17 --- NEW LOGIN ---
+2021-06-23 01:54:18 Credidentials retrieved successfully
+2021-06-23 01:54:19 Logging to SE - OK
+2021-06-23 01:54:19 Caught by CAPTCHA
+2021-06-23 01:54:19 Loading SE profile - FAILURE -  aborting
+2021-06-23 01:56:20 --- NEW LOGIN ---
+2021-06-23 01:56:21 Credidentials retrieved successfully
+2021-06-23 01:56:22 Logging to SE - OK
+2021-06-23 01:56:22 Loading SE profile - OK
+2021-06-23 01:56:23 Got chat fkey : ee5e8f1f346fa014e72473f18344a8bf
+2021-06-23 01:56:23 Login to the SE chat successful
+2021-06-23 01:56:24 Got activity {'t': 125821418, 'd': -1498606365}
+2021-06-23 01:56:38 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427797, 'content': 'hello', 'id': 125821422, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417798}], 't': 125821422, 'd': 1}
+2021-06-23 01:57:50 --- NEW LOGIN ---
+2021-06-23 01:57:51 Credidentials retrieved successfully
+2021-06-23 01:57:51 Logging to SE - OK
+2021-06-23 01:57:52 Loading SE profile - OK
+2021-06-23 01:57:52 Got chat fkey : f9f400d9d40f71e6b9b19282825d49dc
+2021-06-23 01:57:52 Login to the SE chat successful
+2021-06-23 01:57:54 Got activity {'t': 125821451, 'd': -1498606421}
+2021-06-23 01:57:55 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427874, 'content': '⎕&larr;test', 'id': 125821452, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417817}], 't': 125821452, 'd': 1}
+2021-06-23 01:57:55 :58417817 executing code `test`
+2021-06-23 01:57:57 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427875, 'content': '@hyper-neutrino executing code <code>test</code>', 'id': 125821454, 'user_id': 296403, 'user_name': 'NeutrinoBot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417818, 'parent_id': 58417817, 'show_parent': True}], 't': 125821454, 'd': 2}
+2021-06-23 01:57:58 Got activity {'t': 125821457, 'd': 3}
+2021-06-23 01:58:01 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427880, 'content': '`', 'id': 125821459, 'user_id': 515858, 'user_name': 'Appaji Chintimi', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417821}], 't': 125821459, 'd': 1}
+2021-06-23 01:58:03 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427882, 'content': 'nice', 'id': 125821460, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417822}], 't': 125821460, 'd': 1}
+2021-06-23 01:58:13 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624427892, 'content': '<code>\\`</code>', 'id': 125821463, 'user_id': 515858, 'user_name': 'Appaji Chintimi', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417824}], 't': 125821463, 'd': 1}
+2021-06-23 01:58:45 Got activity {'t': 125821474, 'd': 1}
+2021-06-23 02:06:54 --- NEW LOGIN ---
+2021-06-23 02:06:55 Credidentials retrieved successfully
+2021-06-23 02:06:55 Logging to SE - OK
+2021-06-23 02:06:56 Loading SE profile - OK
+2021-06-23 02:06:56 Got chat fkey : df64025bedb0153aeda0c7455718073a
+2021-06-23 02:06:56 Login to the SE chat successful
+2021-06-23 02:06:57 Got activity {'t': 125821712, 'd': -1498606704}
+2021-06-23 02:07:02 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428421, 'content': '3 3 ⍴ ⍳ 9', 'id': 125821713, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417936}], 't': 125821714, 'd': 2}
+2021-06-23 02:07:04 Got activity {'t': 125821715, 'd': 1}
+2021-06-23 02:07:08 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428427, 'content': '⎕&larr;3 3 ⍴ ⍳ 9', 'id': 125821717, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417939}], 't': 125821720, 'd': 4}
+2021-06-23 02:07:09         3 3 ⍴ ⍳ 9
+    1 2 3
+    4 5 6
+    7 8 9
+2021-06-23 02:07:10 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428430, 'content': "<pre class='full'>    3 3 ⍴ ⍳ 9\r\n1 2 3\r\n4 5 6\r\n7 8 9</pre>", 'id': 125821721, 'user_id': 296403, 'user_name': 'NeutrinoBot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417942}], 't': 125821721, 'd': 1}
+2021-06-23 02:07:11 Got activity {'t': 125821722, 'd': 1}
+2021-06-23 02:07:13 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428432, 'content': '<code>⎕&larr;3 3 ⍴ ⍳ 9</code>', 'id': 125821723, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417944}], 't': 125821723, 'd': 1}
+2021-06-23 02:07:14 Got activity {'t': 125821724, 'd': 1}
+2021-06-23 02:07:46 --- NEW LOGIN ---
+2021-06-23 02:07:47 Credidentials retrieved successfully
+2021-06-23 02:07:47 Logging to SE - OK
+2021-06-23 02:07:48 Loading SE profile - OK
+2021-06-23 02:07:48 Got chat fkey : 20c646617b90e3fb9010fef9678913aa
+2021-06-23 02:07:48 Login to the SE chat successful
+2021-06-23 02:07:50 Got activity {'t': 125821731, 'd': -1498606737}
+2021-06-23 02:07:52 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428470, 'content': '<code>⎕&larr;3 3 ⍴ ⍳ 9</code>', 'id': 125821732, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417951}], 't': 125821732, 'd': 1}
+2021-06-23 02:08:22 --- NEW LOGIN ---
+2021-06-23 02:08:45 Credidentials retrieved successfully
+2021-06-23 02:08:45 Logging to SE - OK
+2021-06-23 02:08:46 Loading SE profile - OK
+2021-06-23 02:08:46 Got chat fkey : 2f16ff7b972e6881bd9f58826e222c79
+2021-06-23 02:08:46 Login to the SE chat successful
+2021-06-23 02:08:47 Got activity {'t': 125821752, 'd': -1498606774}
+2021-06-23 02:08:49 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428528, 'content': '⎕&larr;3 3 ⍴ ⍳ 9', 'id': 125821753, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417964}], 't': 125821753, 'd': 1}
+2021-06-23 02:08:50       3 3 ⍴ ⍳ 9
+    1 2 3
+    4 5 6
+    7 8 9
+2021-06-23 02:08:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428530, 'content': "<pre class='full'>  3 3 ⍴ ⍳ 9\r\n1 2 3\r\n4 5 6\r\n7 8 9</pre>", 'id': 125821754, 'user_id': 296403, 'user_name': 'NeutrinoBot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417965}], 't': 125821754, 'd': 1}
+2021-06-23 02:08:53 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428532, 'content': '<code>⎕&larr;3 3 ⍴ ⍳ 9</code>', 'id': 125821755, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417966}], 't': 125821755, 'd': 1}
+2021-06-23 02:08:54       3 3 ⍴ ⍳ 9
+    1 2 3
+    4 5 6
+    7 8 9
+2021-06-23 02:08:55 Got activity {'t': 125821756, 'd': 1}
+2021-06-23 02:09:12 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428550, 'content': 'a', 'id': 125821762, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417971}], 't': 125821762, 'd': 1}
+2021-06-23 02:09:15 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428554, 'content': '<code>⎕&larr;3 3 ⍴ ⍳ 9</code>', 'id': 125821765, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417973}], 't': 125821765, 'd': 3}
+2021-06-23 02:09:16       3 3 ⍴ ⍳ 9
+    1 2 3
+    4 5 6
+    7 8 9
+2021-06-23 02:09:16 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624428556, 'content': "<pre class='full'>  3 3 ⍴ ⍳ 9\r\n1 2 3\r\n4 5 6\r\n7 8 9</pre>", 'id': 125821766, 'user_id': 296403, 'user_name': 'NeutrinoBot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58417974}], 't': 125821766, 'd': 1}
+2021-06-23 02:17:02 --- NEW LOGIN ---
+2021-06-23 02:17:08 Credidentials retrieved successfully
+2021-06-23 02:17:08 Logging to SE - OK
+2021-06-23 02:17:09 Loading SE profile - OK
+2021-06-23 02:17:10 Got chat fkey : d0096b04f27b471852288d029e5c7078
+2021-06-23 02:17:10 Login to the SE chat successful
+2021-06-23 02:17:10 Got activity {'t': 125821931, 'd': -1498607099}
+2021-06-23 02:17:11 Got activity {'t': 125821933, 'd': -1498607097}
+2021-06-23 02:17:12 Got activity {'t': 125821933, 'd': 2}
+2021-06-23 02:17:16 Got activity {'t': 125821936, 'd': 2}
+2021-06-23 02:17:17 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624429035, 'content': '<code>⎕&larr;3 3 ⍴ ⍳ 9</code>', 'id': 125821935, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418040}], 't': 125821936, 'd': 2}
+2021-06-23 02:17:18       3 3 ⍴ ⍳ 9
+    1 2 3
+    4 5 6
+    7 8 9
+2021-06-23 02:17:18 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624429038, 'content': "<pre class='full'>  3 3 ⍴ ⍳ 9\r\n1 2 3\r\n4 5 6\r\n7 8 9</pre>", 'id': 125821937, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418042}], 't': 125821937, 'd': 1}
+2021-06-23 02:17:19 Got activity {'t': 125821937, 'd': 1}
+2021-06-23 02:18:22 Got activity {'t': 125821952, 'd': 1}
+2021-06-23 02:18:51 Got activity {'t': 125821957, 'd': 1}
+2021-06-23 02:19:22 Got activity {'t': 125821966, 'd': 1}
+2021-06-23 02:20:54 Got activity {'t': 125822058, 'd': 2}
+2021-06-23 02:20:54 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624429253, 'content': '@Ad&#225;m the TryAPL part of the bot seems to be working (still need to do more testing to make sure it&#39;s stable and decide how I want to interface with Discord/IRC) \\o/', 'id': 125822058, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418077, 'parent_id': 58417716}], 't': 125822058, 'd': 2}
+2021-06-23 02:23:59 Got activity {'t': 125822133, 'd': 1}
+2021-06-23 02:25:00 Got activity {'t': 125822168, 'd': 11}
+2021-06-23 02:25:01 Got activity {'e': [{'event_type': 4, 'time_stamp': 1624429500, 'id': 125822163, 'user_id': 416473, 'target_user_id': 416473, 'user_name': 'AviFS', 'room_id': 52405, 'room_name': 'The APL Orchard'}], 't': 125822168, 'd': 11}
+2021-06-23 02:25:01 Event: User left
+2021-06-23 02:25:01 Event details: {'event_type': 4, 'time_stamp': 1624429500, 'id': 125822163, 'user_id': 416473, 'target_user_id': 416473, 'user_name': 'AviFS', 'room_id': 52405, 'room_name': 'The APL Orchard'}
+2021-06-23 02:25:02 Got activity {'t': 125822172, 'd': 4}
+2021-06-23 02:25:02 Got activity {'t': 125822174, 'd': 6}
+2021-06-23 02:25:33 Got activity {'t': 125822182, 'd': 1}
+2021-06-23 02:25:33 Got activity {'t': 125822182, 'd': 1}
+2021-06-23 02:26:03 Got activity {'t': 125822192, 'd': 1}
+2021-06-23 02:26:03 Got activity {'t': 125822192, 'd': 1}
+2021-06-23 02:26:34 Got activity {'t': 125822205, 'd': 2}
+2021-06-23 02:26:34 Got activity {'t': 125822205, 'd': 2}
+2021-06-23 02:27:35 Got activity {'t': 125822226, 'd': 2}
+2021-06-23 02:27:35 Got activity {'t': 125822226, 'd': 2}
+2021-06-23 02:29:07 Got activity {'t': 125822246, 'd': 2}
+2021-06-23 02:29:07 Got activity {'t': 125822246, 'd': 1}
+2021-06-23 02:30:52 Got activity {'e': [{'event_type': 3, 'time_stamp': 1624429852, 'id': 125822329, 'user_id': 416473, 'target_user_id': 416473, 'user_name': 'AviFS', 'room_id': 52405, 'room_name': 'The APL Orchard'}], 't': 125822329, 'd': 3}
+2021-06-23 02:30:52 Event: User joined
+2021-06-23 02:30:52 Event details: {'event_type': 3, 'time_stamp': 1624429852, 'id': 125822329, 'user_id': 416473, 'target_user_id': 416473, 'user_name': 'AviFS', 'room_id': 52405, 'room_name': 'The APL Orchard'}
+2021-06-23 02:30:52 Got activity {'t': 125822329, 'd': 1}
+2021-06-23 02:30:54 Got activity {'t': 125822330, 'd': 1}
+2021-06-23 02:30:54 Got activity {'t': 125822331, 'd': 2}
+2021-06-23 02:31:14 Got activity {'t': 125822340, 'd': 1}
+2021-06-23 02:31:14 Got activity {'e': [{'event_type': 4, 'time_stamp': 1624429873, 'id': 125822340, 'user_id': 281362, 'target_user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox'}], 't': 125822340, 'd': 1}
+2021-06-23 02:31:14 Event: User left
+2021-06-23 02:31:14 Event details: {'event_type': 4, 'time_stamp': 1624429873, 'id': 125822340, 'user_id': 281362, 'target_user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox'}
+2021-06-23 02:33:02 --- NEW LOGIN ---
+2021-06-23 02:33:04 Credidentials retrieved successfully
+2021-06-23 02:33:04 Logging to SE - OK
+2021-06-23 02:33:05 Loading SE profile - OK
+2021-06-23 02:33:05 Got chat fkey : fd8af89fc845dc4a933f354f315dbeb3
+2021-06-23 02:33:05 Login to the SE chat successful
+2021-06-23 02:33:06 Got activity {'t': 125822371, 'd': -1498607614}
+2021-06-23 02:33:07 Got activity {'t': 125822371, 'd': -1498607615}
+2021-06-23 02:34:38 Got activity {'t': 125822399, 'd': 2}
+2021-06-23 02:35:09 Got activity {'t': 125822417, 'd': 1}
+2021-06-23 02:35:10 Got activity {'t': 125822418, 'd': 2}
+2021-06-23 02:35:41 Got activity {'t': 125822431, 'd': 2}
+2021-06-23 02:37:11 Got activity {'t': 125822448, 'd': 1}
+2021-06-23 02:37:13 Got activity {'t': 125822449, 'd': 1}
+2021-06-23 02:42:37 Got activity {'t': 125822594, 'd': 4}
+2021-06-23 02:42:37 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430556, 'content': '@hyper-neutrino Ooh, new, shiny. <code>⎕&larr;⍳2 3</code>', 'id': 125822592, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418329, 'parent_id': 58418077, 'show_parent': True}], 't': 125822594, 'd': 4}
+2021-06-23 02:43:04 Got activity {'t': 125822598, 'd': 2}
+2021-06-23 02:43:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430584, 'content': 'Oh, is it supposed to detect <code>⎕&larr;</code> everywhere in the message? oops :)', 'id': 125822597, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418332}, {'event_type': 1, 'time_stamp': 1624430584, 'content': '<code>⎕&larr;&#39;test&#39;</code>', 'id': 125822598, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418333}], 't': 125822598, 'd': 2}
+2021-06-23 02:43:06       'test'
+    test
+2021-06-23 02:43:06 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430586, 'content': "<pre class='full'>  &#39;test&#39;\r\ntest</pre>", 'id': 125822599, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418334}], 't': 125822599, 'd': 1}
+2021-06-23 02:43:07 Got activity {'t': 125822599, 'd': 1}
+2021-06-23 02:43:47 Got activity {'t': 125822606, 'd': 2}
+2021-06-23 02:43:47 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430626, 'content': '@hyper-neutrino Any <code>`⎕&larr;…`</code> I&#39;d say.', 'id': 125822606, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418338, 'parent_id': 58418332, 'show_parent': True}], 't': 125822606, 'd': 2}
+2021-06-23 02:44:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430644, 'content': 'alright, that makes sense :) if a message has multiple should I just run them all in succession?', 'id': 125822610, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418339}], 't': 125822610, 'd': 1}
+2021-06-23 02:44:05 Got activity {'t': 125822610, 'd': 1}
+2021-06-23 02:44:37 Got activity {'t': 125822615, 'd': 2}
+2021-06-23 02:45:06 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430706, 'content': 'Sure. Also, I don&#39;t think it has to echo back the requested expression.', 'id': 125822635, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418345}], 't': 125822635, 'd': 1}
+2021-06-23 02:45:07 Got activity {'t': 125822636, 'd': 2}
+2021-06-23 02:45:07 Got activity {'t': 125822636, 'd': 1}
+2021-06-23 02:45:33 Got activity {'t': 125822642, 'd': 3}
+2021-06-23 02:45:33 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430732, 'content': 'good point', 'id': 125822641, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418348}, {'event_type': 1, 'time_stamp': 1624430732, 'content': 'You can merge all the expressions from a single message using <code>⋄</code>', 'id': 125822642, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418349}], 't': 125822642, 'd': 3}
+2021-06-23 02:45:50 Got activity {'t': 125822647, 'd': 1}
+2021-06-23 02:45:51 Got activity {'e': [{'event_type': 3, 'time_stamp': 1624430749, 'id': 125822647, 'user_id': 281362, 'target_user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox'}], 't': 125822647, 'd': 1}
+2021-06-23 02:45:51 Event: User joined
+2021-06-23 02:45:51 Event details: {'event_type': 3, 'time_stamp': 1624430749, 'id': 125822647, 'user_id': 281362, 'target_user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox'}
+2021-06-23 02:46:07 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430767, 'content': 'Meanwhile, an APL answer for <a href="https://codegolf.stackexchange.com/q/230339/78410">checkered tiling</a> is still up for the grabs :P', 'id': 125822650, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418355}], 't': 125822651, 'd': 3}
+2021-06-23 02:46:08 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430767, 'content': '<code>⎕&larr; 3 3 ⍴ ⍳ 9 ⋄ 2 2 ⍴ ⍳ 4</code>', 'id': 125822652, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418357}], 't': 125822652, 'd': 3}
+2021-06-23 02:46:09 Got activity {'t': 125822652, 'd': 1}
+2021-06-23 02:46:09        3 3 ⍴ ⍳ 9 ⋄ 2 2 ⍴ ⍳ 4
+    1 2 3
+    4 5 6
+    7 8 9
+    1 2
+    3 4
+2021-06-23 02:46:10 Got activity {'t': 125822653, 'd': 1}
+2021-06-23 02:46:11 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430769, 'content': "<pre class='full'>   3 3 ⍴ ⍳ 9 ⋄ 2 2 ⍴ ⍳ 4\r\n1 2 3\r\n4 5 6\r\n7 8 9\r\n1 2\r\n3 4</pre>", 'id': 125822653, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418358}], 't': 125822654, 'd': 2}
+2021-06-23 02:46:12 Got activity {'t': 125822654, 'd': 1}
+2021-06-23 02:46:23 Got activity {'t': 125822658, 'd': 1}
+2021-06-23 02:46:24 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430783, 'content': 'i am very sad that my approach is wrong :pensive:', 'id': 125822658, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418362}], 't': 125822658, 'd': 1}
+2021-06-23 02:46:55 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430814, 'content': 'Would it be possible to make it react also to <code>`⋄…`</code>?', 'id': 125822661, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418364}], 't': 125822661, 'd': 1}
+2021-06-23 02:46:55 Got activity {'t': 125822661, 'd': 1}
+2021-06-23 02:47:26 Got activity {'t': 125822667, 'd': 1}
+2021-06-23 02:47:26 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430845, 'content': '<code>⎕&larr;a&larr;⍳3</code>', 'id': 125822667, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418367}], 't': 125822667, 'd': 1}
+2021-06-23 02:47:27       a←⍳3
+2021-06-23 02:47:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430847, 'content': "<pre class='full'>  a&larr;⍳3</pre>", 'id': 125822668, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418368}], 't': 125822668, 'd': 1}
+2021-06-23 02:47:29 Got activity {'t': 125822668, 'd': 1}
+2021-06-23 02:48:23 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430903, 'content': '@Adám like, on its own, so you would be able to do ( <code>⎕&larr;code</code> some-text <code>⋄ other code</code> ) ?', 'id': 125822675, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418370, 'parent_id': 58418364, 'show_parent': True}], 't': 125822675, 'd': 2}
+2021-06-23 02:48:24 Got activity {'t': 125822676, 'd': 3}
+2021-06-23 02:48:24 Got activity {'t': 125822676, 'd': 1}
+2021-06-23 02:48:48 Got activity {'t': 125822679, 'd': 2}
+2021-06-23 02:48:49 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430928, 'content': '@hyper-neutrino I said something wrong the other day when I described the desired behaviour. I think I said it should execute &quot;the rest&quot; i.e. after <code>⎕&larr;</code> but it should actually include the <code>⎕&larr;</code>', 'id': 125822679, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418372, 'parent_id': 58418370}], 't': 125822679, 'd': 2}
+2021-06-23 02:48:51 Got activity {'t': 125822680, 'd': 1}
+2021-06-23 02:48:52 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430931, 'content': 'nah the prefix for the older bot was <code>⋄code⋄other code</code>', 'id': 125822680, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418373}], 't': 125822680, 'd': 1}
+2021-06-23 02:48:53 Got activity {'t': 125822681, 'd': 1}
+2021-06-23 02:49:30 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430970, 'content': '@hyper-neutrino No, it would be an alternative syntax. You can safely include the <code>⋄</code> as well.', 'id': 125822685, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418375, 'parent_id': 58418370, 'show_parent': True}], 't': 125822685, 'd': 2}
+2021-06-23 02:49:31 Got activity {'t': 125822685, 'd': 2}
+2021-06-23 02:49:32 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624430971, 'content': '@Adám oh', 'id': 125822687, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418376, 'parent_id': 58418372, 'show_parent': True}], 't': 125822687, 'd': 2}
+2021-06-23 02:49:32 Got activity {'t': 125822687, 'd': 2}
+2021-06-23 02:50:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431004, 'content': 'The point is to all things like <code>⋄ a&larr;⍳3 ⋄ 2&#215;a</code> and also <code>⎕&larr;a&larr;⍳3</code>', 'id': 125822779, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418382}], 't': 125822779, 'd': 1}
+2021-06-23 02:50:05 Got activity {'t': 125822779, 'd': 1}
+2021-06-23 02:50:12 Got activity {'t': 125822781, 'd': 1}
+2021-06-23 02:50:13 Got activity {'e': [{'event_type': 2, 'time_stamp': 1624431004, 'content': 'The point is to allow things like <code>⋄ a&larr;⍳3 ⋄ 2&#215;a</code> and also <code>⎕&larr;a&larr;⍳3</code>', 'id': 125822781, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418382, 'message_edits': 1}], 't': 125822781, 'd': 1}
+2021-06-23 02:50:31 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431030, 'content': '@Adám okay. so basically, find all <code>`⎕&larr;...`</code> and all <code>`⋄ ...`</code>, remove the <code>⋄</code>s from the start of the latter type, join all of them on <code>⋄</code>, and then run the statement?', 'id': 125822788, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418385, 'parent_id': 58418375, 'show_parent': True}], 't': 125822788, 'd': 2}
+2021-06-23 02:50:31 Got activity {'t': 125822788, 'd': 2}
+2021-06-23 02:50:32 Got activity {'t': 125822789, 'd': 1}
+2021-06-23 02:50:32 Got activity {'t': 125822789, 'd': 1}
+2021-06-23 02:50:43 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431042, 'content': '<code>⎕&larr;3 3 ⍴ 3</code>', 'id': 125822791, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418387}], 't': 125822791, 'd': 1}
+2021-06-23 02:50:43 Got activity {'t': 125822791, 'd': 1}
+2021-06-23 02:50:44       3 3 ⍴ 3
+    3 3 3
+    3 3 3
+    3 3 3
+2021-06-23 02:50:44 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431044, 'content': "<pre class='full'>  3 3 ⍴ 3\r\n3 3 3\r\n3 3 3\r\n3 3 3</pre>", 'id': 125822792, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418388}], 't': 125822792, 'd': 1}
+2021-06-23 02:50:44 Got activity {'t': 125822792, 'd': 1}
+2021-06-23 02:51:01 Got activity {'t': 125822796, 'd': 2}
+2021-06-23 02:51:01 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431061, 'content': 'oh it prints the experssion again and then the output', 'id': 125822796, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418389}], 't': 125822796, 'd': 2}
+2021-06-23 02:51:12 Got activity {'t': 125822798, 'd': 2}
+2021-06-23 02:51:12 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431070, 'content': '@hyper-neutrino You don&#39;t even need to remove the leading diamonds, as it is all valid APL :-)', 'id': 125822798, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418390, 'parent_id': 58418385, 'show_parent': True}], 't': 125822798, 'd': 2}
+2021-06-23 02:51:21 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431081, 'content': 'yeah adam mentioned that the expression itself doesn&#39;t really need to be output', 'id': 125822801, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418391}], 't': 125822801, 'd': 1}
+2021-06-23 02:51:23 Got activity {'t': 125822801, 'd': 1}
+2021-06-23 02:51:24 Got activity {'t': 125822803, 'd': 2}
+2021-06-23 02:51:24 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431083, 'content': '@Razetime I think HN is going to remove that.', 'id': 125822803, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418392, 'parent_id': 58418389, 'show_parent': True}], 't': 125822803, 'd': 2}
+2021-06-23 02:51:32 Got activity {'t': 125822806, 'd': 2}
+2021-06-23 02:51:32 Got activity {'e': [{'event_type': 2, 'time_stamp': 1624431081, 'content': 'yeah ad&#225;m mentioned that the expression itself doesn&#39;t really need to be output', 'id': 125822806, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418391, 'message_edits': 1}], 't': 125822806, 'd': 2}
+2021-06-23 02:51:40 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431099, 'content': '@Adám oh, right :P', 'id': 125822811, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418395, 'parent_id': 58418390, 'show_parent': True}], 't': 125822812, 'd': 4}
+2021-06-23 02:51:41 Got activity {'t': 125822812, 'd': 3}
+2021-06-23 02:51:45 Got activity {'t': 125822813, 'd': 1}
+2021-06-23 02:51:46 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431104, 'content': 'alright', 'id': 125822813, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418397}], 't': 125822813, 'd': 1}
+2021-06-23 02:51:48 Got activity {'t': 125822814, 'd': 1}
+2021-06-23 02:51:49 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431107, 'content': '`\\`', 'id': 125822814, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418398}], 't': 125822814, 'd': 1}
+2021-06-23 02:51:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431110, 'content': '<code>\\</code>', 'id': 125822816, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418400}], 't': 125822816, 'd': 2}
+2021-06-23 02:51:51 Got activity {'t': 125822816, 'd': 2}
+2021-06-23 02:51:55 Got activity {'t': 125822819, 'd': 3}
+2021-06-23 02:51:55 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431114, 'content': '@hyper-neutrino But you might want to make the bot reply to the task message.', 'id': 125822819, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418401, 'parent_id': 58418391, 'show_parent': True}], 't': 125822819, 'd': 2}
+2021-06-23 02:52:12 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431132, 'content': '@Adám i can&#39;t figure out how to get that to work with multiline monospace', 'id': 125822824, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418402, 'parent_id': 58418401, 'show_parent': True}], 't': 125822824, 'd': 2}
+2021-06-23 02:52:13 Got activity {'t': 125822824, 'd': 2}
+2021-06-23 02:52:15 Got activity {'t': 125822825, 'd': 1}
+2021-06-23 02:52:16 Got activity {'e': [{'event_type': 3, 'time_stamp': 1624431135, 'id': 125822825, 'user_id': 130368, 'target_user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox'}], 't': 125822825, 'd': 1}
+2021-06-23 02:52:16 Event: User joined
+2021-06-23 02:52:16 Event details: {'event_type': 3, 'time_stamp': 1624431135, 'id': 125822825, 'user_id': 130368, 'target_user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox'}
+2021-06-23 02:52:26 Got activity {'t': 125822826, 'd': 1}
+2021-06-23 02:52:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431145, 'content': '<code>⎕&larr; +\\ 1 2 3 4 5</code>', 'id': 125822826, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418403}], 't': 125822826, 'd': 1}
+2021-06-23 02:52:28        +\ 1 2 3 4 5
+    1 3 6 10 15
+2021-06-23 02:52:28 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431148, 'content': "<pre class='full'>   +\\ 1 2 3 4 5\r\n1 3 6 10 15</pre>", 'id': 125822827, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418404}], 't': 125822827, 'd': 1}
+2021-06-23 02:52:29 Got activity {'t': 125822827, 'd': 1}
+2021-06-23 02:52:30 Got activity {'t': 125822828, 'd': 1}
+2021-06-23 02:52:31 Got activity {'t': 125822828, 'd': 1}
+2021-06-23 02:52:36 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431155, 'content': '<code>⎕&larr;+\\1 2 3 4 5</code>', 'id': 125822832, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418407}], 't': 125822832, 'd': 3}
+2021-06-23 02:52:37 Got activity {'t': 125822832, 'd': 1}
+2021-06-23 02:52:37       +\1 2 3 4 5
+    1 3 6 10 15
+2021-06-23 02:52:37 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431157, 'content': "<pre class='full'>  +\\1 2 3 4 5\r\n1 3 6 10 15</pre>", 'id': 125822833, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418408}], 't': 125822833, 'd': 1}
+2021-06-23 02:52:38 Got activity {'t': 125822833, 'd': 1}
+2021-06-23 02:52:45 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431164, 'content': '<code>⎕&larr;&#39;`&#39;</code>', 'id': 125822836, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418410}], 't': 125822836, 'd': 1}
+2021-06-23 02:52:46 Got activity {'t': 125822837, 'd': 2}
+2021-06-23 02:52:46       '`'
+    `
+2021-06-23 02:52:47 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431166, 'content': "<pre class='full'>  &#39;`&#39;\r\n`</pre>", 'id': 125822838, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418412}], 't': 125822838, 'd': 2}
+2021-06-23 02:52:47 Got activity {'t': 125822838, 'd': 1}
+2021-06-23 02:52:58 Got activity {'t': 125822840, 'd': 1}
+2021-06-23 02:52:59 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431178, 'content': "<pre class='full'>:58418412 abc</pre>", 'id': 125822840, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418413}], 't': 125822840, 'd': 1}
+2021-06-23 02:53:00 Got activity {'t': 125822841, 'd': 1}
+2021-06-23 02:53:08 Got activity {'t': 125822844, 'd': 1}
+2021-06-23 02:53:08 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431187, 'content': '<code>⎕&larr;&#39;\\`&#39;</code>', 'id': 125822844, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418416}], 't': 125822844, 'd': 1}
+2021-06-23 02:53:09       '\`'
+    \`
+2021-06-23 02:53:09 Got activity {'t': 125822847, 'd': 3}
+2021-06-23 02:53:09 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431189, 'content': "<pre class='full'>  &#39;\\`&#39;\r\n\\`</pre>", 'id': 125822847, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418418}], 't': 125822847, 'd': 3}
+2021-06-23 02:53:11 Got activity {'t': 125822848, 'd': 1}
+2021-06-23 02:53:11 Got activity {'t': 125822848, 'd': 1}
+2021-06-23 02:53:34 Got activity {'t': 125822854, 'd': 2}
+2021-06-23 02:53:34 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431212, 'content': '@hyper-neutrino Good point. Would it be possible for the bot to reply with an inline code block if the output only has one line?', 'id': 125822854, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418421, 'parent_id': 58418402, 'show_parent': True}], 't': 125822854, 'd': 2}
+2021-06-23 02:53:57 Got activity {'t': 125822860, 'd': 3}
+2021-06-23 02:53:57 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431235, 'content': '@Adám yes, I can special-case that - good suggestion', 'id': 125822859, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418424, 'parent_id': 58418421, 'show_parent': True}], 't': 125822860, 'd': 3}
+2021-06-23 02:54:26 Got activity {'e': [{'event_type': 8, 'time_stamp': 1624431265, 'content': "<pre class='full'>@ExperimentalAPLBot abc\r\ndef</pre>", 'id': 125822862, 'user_id': 130368, 'target_user_id': 296403, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418425, 'parent_id': 58418418}, {'event_type': 1, 'time_stamp': 1624431265, 'content': "<pre class='full'>@ExperimentalAPLBot abc\r\ndef</pre>", 'id': 125822863, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418425, 'parent_id': 58418418}], 't': 125822863, 'd': 2}
+2021-06-23 02:54:26 Event: Bot was pinged
+2021-06-23 02:54:26 Event details: {'event_type': 8, 'time_stamp': 1624431265, 'content': "<pre class='full'>@ExperimentalAPLBot abc\r\ndef</pre>", 'id': 125822862, 'user_id': 130368, 'target_user_id': 296403, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418425, 'parent_id': 58418418}
+2021-06-23 02:54:26 Got activity {'e': [{'event_type': 8, 'time_stamp': 1624431265, 'content': "<pre class='full'>@ExperimentalAPLBot abc\r\ndef</pre>", 'id': 125822862, 'user_id': 130368, 'target_user_id': 296403, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418425, 'parent_id': 58418418}], 't': 125822863, 'd': 2}
+2021-06-23 02:54:26 Event: Bot was pinged
+2021-06-23 02:54:26 Event details: {'event_type': 8, 'time_stamp': 1624431265, 'content': "<pre class='full'>@ExperimentalAPLBot abc\r\ndef</pre>", 'id': 125822862, 'user_id': 130368, 'target_user_id': 296403, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418425, 'parent_id': 58418418}
+2021-06-23 02:54:49 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431288, 'content': "<pre class='full'>@hyper-neutrino\r\nDoes this ping you?</pre>", 'id': 125822869, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418427, 'parent_id': 58418416}], 't': 125822869, 'd': 2}
+2021-06-23 02:54:49 Got activity {'t': 125822869, 'd': 2}
+2021-06-23 02:55:15 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431314, 'content': 'it makes the sound and brings up the circle in the corner of my avatar but it doesn&#39;t highlight the ping in the message :P', 'id': 125822884, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418431}], 't': 125822884, 'd': 1}
+2021-06-23 02:55:15 Got activity {'t': 125822885, 'd': 2}
+2021-06-23 02:55:16 Got activity {'t': 125822885, 'd': 1}
+2021-06-23 02:55:48 Got activity {'t': 125822891, 'd': 1}
+2021-06-23 02:55:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431349, 'content': "<pre class='full'>:58418431\r\nDoes this?</pre>", 'id': 125822893, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418438}], 't': 125822893, 'd': 1}
+2021-06-23 02:55:51 Got activity {'t': 125822893, 'd': 1}
+2021-06-23 02:55:54 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431354, 'content': 'nope :(', 'id': 125822894, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418439}], 't': 125822894, 'd': 1}
+2021-06-23 02:55:55 Got activity {'t': 125822894, 'd': 1}
+2021-06-23 02:55:57 Got activity {'t': 125822895, 'd': 1}
+2021-06-23 02:56:15 Got activity {'t': 125822899, 'd': 2}
+2021-06-23 02:56:16 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431375, 'content': 'So maybe use the explicit @username form for multiline.', 'id': 125822899, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418442}], 't': 125822899, 'd': 2}
+2021-06-23 02:56:20 Got activity {'e': [{'event_type': 2, 'time_stamp': 1624431375, 'content': 'So maybe use the explicit @username form for multiline output', 'id': 125822901, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418442, 'message_edits': 1}], 't': 125822901, 'd': 1}
+2021-06-23 02:56:22 Got activity {'t': 125822901, 'd': 1}
+2021-06-23 02:56:54 Got activity {'t': 125822907, 'd': 1}
+2021-06-23 02:57:14 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431433, 'content': '@Bubbler I have 17', 'id': 125822911, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418451, 'parent_id': 58418355, 'show_parent': True}], 't': 125822911, 'd': 3}
+2021-06-23 02:57:14 Got activity {'t': 125822911, 'd': 3}
+2021-06-23 02:57:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431446, 'content': 'o wow', 'id': 125822917, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418457}], 't': 125822917, 'd': 1}
+2021-06-23 02:57:28 Got activity {'t': 125822917, 'd': 1}
+2021-06-23 02:58:00 Got activity {'t': 125822925, 'd': 1}
+2021-06-23 02:58:01 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431479, 'content': 'you mentioned there&#39;s a hint you&#39;d only mention if someone found it - i presume the py/js ones have not :P', 'id': 125822925, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418461}], 't': 125822927, 'd': 3}
+2021-06-23 02:58:01 Got activity {'t': 125822927, 'd': 2}
+2021-06-23 02:58:02 Got activity {'t': 125822928, 'd': 1}
+2021-06-23 02:58:32 Got activity {'t': 125822934, 'd': 1}
+2021-06-23 02:59:04 Got activity {'t': 125822945, 'd': 2}
+2021-06-23 02:59:17 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431557, 'content': 'yeah, looks like i&#39;ll have to do that', 'id': 125822948, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418474}], 't': 125822948, 'd': 1}
+2021-06-23 02:59:18 Got activity {'t': 125822948, 'd': 1}
+2021-06-23 02:59:38 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431578, 'content': 'Python one is manually coloring it to the end, and I don&#39;t want to decipher the JS one now :P', 'id': 125822954, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418477}], 't': 125822954, 'd': 1}
+2021-06-23 02:59:39 Got activity {'t': 125822954, 'd': 1}
+2021-06-23 03:00:10 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431609, 'content': "<pre class='full'>Does this ping you?\r\n@hyper-neutrino</pre>", 'id': 125823027, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418480, 'parent_id': 58418474}], 't': 125823027, 'd': 2}
+2021-06-23 03:00:10 Got activity {'t': 125823028, 'd': 3}
+2021-06-23 03:00:11 Got activity {'t': 125823028, 'd': 1}
+2021-06-23 03:00:18 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431616, 'content': 'yes', 'id': 125823029, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418481}], 't': 125823029, 'd': 1}
+2021-06-23 03:00:18 Got activity {'t': 125823029, 'd': 1}
+2021-06-23 03:00:31 Got activity {'t': 125823033, 'd': 4}
+2021-06-23 03:00:32 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431631, 'content': 'fair enough lol', 'id': 125823032, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418483}], 't': 125823033, 'd': 4}
+2021-06-23 03:01:00 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431660, 'content': "<div class='full'>abc <br> `⎕&larr;⍳3`</div>", 'id': 125823035, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418485}], 't': 125823037, 'd': 3}
+2021-06-23 03:01:01 Got activity {'t': 125823037, 'd': 3}
+2021-06-23 03:01:15 Got activity {'t': 125823039, 'd': 1}
+2021-06-23 03:01:16 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431675, 'content': 'OK, good.', 'id': 125823039, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418486}], 't': 125823039, 'd': 1}
+2021-06-23 03:01:28 Got activity {'t': 125823040, 'd': 1}
+2021-06-23 03:01:28 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431687, 'content': "<pre class='full'>⎕&larr;⍳4</pre>", 'id': 125823040, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418487}], 't': 125823040, 'd': 1}
+2021-06-23 03:02:20 Got activity {'t': 125823047, 'd': 1}
+2021-06-23 03:02:20 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431739, 'content': 'oh should i also match four spaces plus <code>⎕&larr;...</code> or diamond <code>...</code>', 'id': 125823047, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418491}], 't': 125823048, 'd': 2}
+2021-06-23 03:02:22 Got activity {'t': 125823048, 'd': 1}
+2021-06-23 03:05:25 Got activity {'t': 125823103, 'd': 1}
+2021-06-23 03:06:38 Got activity {'t': 125823114, 'd': 1}
+2021-06-23 03:06:39 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624431998, 'content': 'Sure, if not too much work.', 'id': 125823114, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418527}], 't': 125823114, 'd': 1}
+2021-06-23 03:06:40 Got activity {'t': 125823115, 'd': 1}
+2021-06-23 03:06:54 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432014, 'content': 'that should be hopefully easy to add... assuming i&#39;m not dumb :p', 'id': 125823116, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418529}], 't': 125823116, 'd': 1}
+2021-06-23 03:06:55 Got activity {'t': 125823117, 'd': 2}
+2021-06-23 03:06:56 Got activity {'t': 125823117, 'd': 1}
+2021-06-23 03:07:44 Got activity {'t': 125823126, 'd': 2}
+2021-06-23 03:07:45 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432064, 'content': 'Are you sure you don&#39;t mind me asking for features?', 'id': 125823126, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418535}], 't': 125823126, 'd': 1}
+2021-06-23 03:08:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432130, 'content': 'Yeah, I don&#39;t mind - I can&#39;t promise I can devote too much time to this but I have enough experience with python discord and SE chat bots and it&#39;s a fun project :)', 'id': 125823141, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418541}], 't': 125823141, 'd': 1}
+2021-06-23 03:08:51 Got activity {'t': 125823141, 'd': 1}
+2021-06-23 03:08:52 Got activity {'t': 125823142, 'd': 1}
+2021-06-23 03:08:52 Got activity {'t': 125823142, 'd': 1}
+2021-06-23 03:11:13 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432272, 'content': '<code>`</code>', 'id': 125823236, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418556}], 't': 125823236, 'd': 2}
+2021-06-23 03:11:14 Got activity {'t': 125823236, 'd': 1}
+2021-06-23 03:11:48 Got activity {'t': 125823246, 'd': 2}
+2021-06-23 03:11:48 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432307, 'content': 'the messages i receive on the backend delimit by <code>&lt;code&gt;...&lt;&#47;code&gt;</code> which prevents needing to worry about parsing markdown and how backslash or backtick escaping works out :P', 'id': 125823246, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418564}], 't': 125823246, 'd': 1}
+2021-06-23 03:12:03 Got activity {'t': 125823252, 'd': 2}
+2021-06-23 03:12:03 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432322, 'content': 'it is time to parse HTML with regex', 'id': 125823252, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418569}], 't': 125823252, 'd': 2}
+2021-06-23 03:12:35 Got activity {'t': 125823293, 'd': 2}
+2021-06-23 03:12:36 Got activity {'t': 125823295, 'd': 4}
+2021-06-23 03:13:06 Got activity {'t': 125823307, 'd': 1}
+2021-06-23 03:13:06 Got activity {'t': 125823307, 'd': 1}
+2021-06-23 03:14:08 Got activity {'t': 125823334, 'd': 3}
+2021-06-23 03:14:38 Got activity {'t': 125823349, 'd': 1}
+2021-06-23 03:16:10 Got activity {'t': 125823390, 'd': 1}
+2021-06-23 03:16:40 Got activity {'t': 125823402, 'd': 1}
+2021-06-23 03:17:52 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432671, 'content': 'abc&lt;code&gt;def&lt;/code&gt;ghi', 'id': 125823416, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418666}], 't': 125823416, 'd': 1}
+2021-06-23 03:17:53 Got activity {'t': 125823416, 'd': 1}
+2021-06-23 03:18:03 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432682, 'content': 'abc<code>def</code>ghi', 'id': 125823420, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418669}], 't': 125823421, 'd': 3}
+2021-06-23 03:18:03 Got activity {'t': 125823421, 'd': 2}
+2021-06-23 03:18:14 Got activity {'t': 125823425, 'd': 4}
+2021-06-23 03:18:15 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432693, 'content': 'those are indistinguishable from the backend it seems :/', 'id': 125823425, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418673}], 't': 125823425, 'd': 3}
+2021-06-23 03:18:26 Got activity {'t': 125823430, 'd': 1}
+2021-06-23 03:18:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432706, 'content': 'oh wait - i am doing html unescape. one of them might be different', 'id': 125823430, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418677}], 't': 125823430, 'd': 1}
+2021-06-23 03:18:56 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432735, 'content': '@Bubbler very honestly do not know how to solve it', 'id': 125823436, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418682, 'parent_id': 58418355, 'show_parent': True}], 't': 125823436, 'd': 2}
+2021-06-23 03:18:56 Got activity {'t': 125823436, 'd': 2}
+2021-06-23 03:19:28 Got activity {'t': 125823444, 'd': 1}
+2021-06-23 03:19:54 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432794, 'content': 'i do know that the existence of any 3-connected block with completely unique chars is falsy', 'id': 125823450, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418690}], 't': 125823450, 'd': 1}
+2021-06-23 03:19:54 Got activity {'t': 125823450, 'd': 1}
+2021-06-23 03:20:11 --- NEW LOGIN ---
+2021-06-23 03:20:13 Credidentials retrieved successfully
+2021-06-23 03:20:14 Logging to SE - OK
+2021-06-23 03:20:14 Loading SE profile - OK
+2021-06-23 03:20:15 Got chat fkey : 84858591039bc5fdd809c793018446eb
+2021-06-23 03:20:15 Login to the SE chat successful
+2021-06-23 03:20:16 Got activity {'t': 125823527, 'd': -1498609288}
+2021-06-23 03:20:16 Got activity {'t': 125823527, 'd': -1498609288}
+2021-06-23 03:20:34 Got activity {'t': 125823535, 'd': 2}
+2021-06-23 03:20:34 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432833, 'content': 'abc<code>def</code>ghi', 'id': 125823535, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418695}], 't': 125823535, 'd': 1}
+2021-06-23 03:20:37 Got activity {'t': 125823536, 'd': 1}
+2021-06-23 03:20:37 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432837, 'content': 'abc&lt;code&gt;def&lt;/code&gt;ghi', 'id': 125823536, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418696}], 't': 125823536, 'd': 1}
+2021-06-23 03:20:42 Got activity {'e': [{'event_type': 10, 'time_stamp': 1624432794, 'id': 125823537, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418690}], 't': 125823537, 'd': 1}
+2021-06-23 03:20:42 Event: Message deleted
+2021-06-23 03:20:42 Event details: {'event_type': 10, 'time_stamp': 1624432794, 'id': 125823537, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418690}
+2021-06-23 03:20:42 Got activity {'t': 125823537, 'd': 1}
+2021-06-23 03:20:46 Got activity {'t': 125823538, 'd': 1}
+2021-06-23 03:20:46 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432846, 'content': 'yeah they&#39;re html entities', 'id': 125823538, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418697}], 't': 125823538, 'd': 1}
+2021-06-23 03:22:21 Got activity {'t': 125823562, 'd': 1}
+2021-06-23 03:22:21 Got activity {'t': 125823562, 'd': 1}
+2021-06-23 03:22:50 Got activity {'t': 125823564, 'd': 1}
+2021-06-23 03:22:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432970, 'content': 'ofc', 'id': 125823564, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418713}], 't': 125823564, 'd': 1}
+2021-06-23 03:22:56 Got activity {'t': 125823565, 'd': 1}
+2021-06-23 03:22:56 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432976, 'content': "<pre class='full'>hello\r\nworld</pre>", 'id': 125823565, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418714}], 't': 125823565, 'd': 1}
+2021-06-23 03:23:07 Got activity {'t': 125823568, 'd': 2}
+2021-06-23 03:23:07 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624432987, 'content': "<pre class='full'>hello</pre>", 'id': 125823568, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418716}], 't': 125823568, 'd': 2}
+2021-06-23 03:23:22 Got activity {'t': 125823569, 'd': 1}
+2021-06-23 03:23:22 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433001, 'content': "<div class='full'>hello <br> world</div>", 'id': 125823569, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418717}], 't': 125823569, 'd': 1}
+2021-06-23 03:25:26 Got activity {'t': 125823614, 'd': 1}
+2021-06-23 03:25:27 Got activity {'t': 125823614, 'd': 1}
+2021-06-23 03:25:57 Got activity {'t': 125823620, 'd': 2}
+2021-06-23 03:27:30 Got activity {'t': 125823644, 'd': 1}
+2021-06-23 03:28:02 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433282, 'content': 'so if a-b, a-c and b-c exist, then it is falsy', 'id': 125823655, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418764}], 't': 125823655, 'd': 1}
+2021-06-23 03:28:03 Got activity {'t': 125823655, 'd': 1}
+2021-06-23 03:28:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433283, 'content': 'otherwise true', 'id': 125823656, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418765}], 't': 125823656, 'd': 1}
+2021-06-23 03:28:05 Got activity {'t': 125823656, 'd': 1}
+2021-06-23 03:28:26 Got activity {'t': 125823660, 'd': 1}
+2021-06-23 03:28:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433306, 'content': 'That&#39;s correct', 'id': 125823660, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418766}], 't': 125823660, 'd': 1}
+2021-06-23 03:28:51 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433330, 'content': '@NewPosts STATUS', 'id': 125823664, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418768, 'parent_id': 58405449}], 't': 125823664, 'd': 3}
+2021-06-23 03:28:51 Got activity {'t': 125823664, 'd': 3}
+2021-06-23 03:28:52 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433332, 'content': "<pre class='full'>RUNNING: [1] 1 1\r\n\r\n[07:27:03] request: chat.stackexchange.com/chats/124926/messages/new\r\n[07:27:03] request: chat.stackexchange.com/messages/ack\r\n[07:28:51] status: 1</pre>", 'id': 125823665, 'user_id': 509028, 'user_name': 'New Posts', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418769}, {'event_type': 1, 'time_stamp': 1624433332, 'content': "<pre class='full'>RUNNING: [1] 1 1\r\n\r\n[03:21:40] request: chat.stackexchange.com/messages/ack\r\n[03:27:03] request: chat.stackexchange.com/chats/124926/messages/new\r\n[03:27:03] request: chat.stackexchange.com/messages/ack</pre>", 'id': 125823666, 'user_id': 509028, 'user_name': 'New Posts', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418770}], 't': 125823666, 'd': 2}
+2021-06-23 03:28:53 Got activity {'t': 125823667, 'd': 3}
+2021-06-23 03:28:54 Got activity {'t': 125823667, 'd': 1}
+2021-06-23 03:30:38 Got activity {'t': 125823750, 'd': 1}
+2021-06-23 03:30:39 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433438, 'content': 'so basically existence of a 3-cycle &lt;=&gt; falsy, like dlosc suggested :p', 'id': 125823750, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418784}], 't': 125823750, 'd': 1}
+2021-06-23 03:31:02 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433462, 'content': 'Yes, but you can make it much more compact than that', 'id': 125823758, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418788}], 't': 125823758, 'd': 3}
+2021-06-23 03:31:03 Got activity {'t': 125823759, 'd': 2}
+2021-06-23 03:31:04 Got activity {'t': 125823759, 'd': 1}
+2021-06-23 03:31:59 Got activity {'t': 125823766, 'd': 1}
+2021-06-23 03:32:00 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433518, 'content': 'hmm', 'id': 125823766, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418794}], 't': 125823766, 'd': 1}
+2021-06-23 03:32:56 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433576, 'content': 'also yeah my code was previously checking if the # of unique elements around each intersection was even or 1', 'id': 125823774, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418800}], 't': 125823774, 'd': 1}
+2021-06-23 03:32:57 Got activity {'t': 125823774, 'd': 1}
+2021-06-23 03:33:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433584, 'content': 'in other words, 1, 2, or 4, or just &quot;not 3&quot;, lol...', 'id': 125823778, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418802}], 't': 125823778, 'd': 1}
+2021-06-23 03:33:05 Got activity {'t': 125823778, 'd': 1}
+2021-06-23 03:33:37 Got activity {'t': 125823789, 'd': 2}
+2021-06-23 03:33:37 Got activity {'t': 125823789, 'd': 2}
+2021-06-23 03:36:11 Got activity {'t': 125823829, 'd': 1}
+2021-06-23 03:36:12 Got activity {'t': 125823829, 'd': 1}
+2021-06-23 03:36:42 Got activity {'t': 125823837, 'd': 2}
+2021-06-23 03:36:42 Got activity {'t': 125823837, 'd': 1}
+2021-06-23 03:38:15 --- NEW LOGIN ---
+2021-06-23 03:38:18 Credidentials retrieved successfully
+2021-06-23 03:38:19 Logging to SE - OK
+2021-06-23 03:38:19 Loading SE profile - OK
+2021-06-23 03:38:20 Got chat fkey : d8038a4ee02661cb1d9fc255b4fbcdfa
+2021-06-23 03:38:20 Login to the SE chat successful
+2021-06-23 03:38:21 Got activity {'t': 125823845, 'd': -1498610055}
+2021-06-23 03:38:21 Got activity {'t': 125823845, 'd': -1498610055}
+2021-06-23 03:38:25 Got activity {'t': 125823846, 'd': 1}
+2021-06-23 03:38:25 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433904, 'content': '<code>⋄hello</code>', 'id': 125823846, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418840}], 't': 125823846, 'd': 1}
+2021-06-23 03:38:25     hello
+2021-06-23 03:38:27 Got activity {'t': 125823847, 'd': 1}
+2021-06-23 03:38:27 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433906, 'content': "<pre class='full'>hello</pre>", 'id': 125823847, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418841}], 't': 125823847, 'd': 1}
+2021-06-23 03:38:27 
+2021-06-23 03:38:53 Got activity {'t': 125823850, 'd': 1}
+2021-06-23 03:39:38 --- NEW LOGIN ---
+2021-06-23 03:39:39 Credidentials retrieved successfully
+2021-06-23 03:39:39 Logging to SE - OK
+2021-06-23 03:39:40 Loading SE profile - OK
+2021-06-23 03:39:40 Got chat fkey : 4523e986f8315e05bb3325b15714c0c2
+2021-06-23 03:39:40 Login to the SE chat successful
+2021-06-23 03:39:42 Got activity {'t': 125823856, 'd': -1498610124}
+2021-06-23 03:39:42 Got activity {'t': 125823856, 'd': -1498610125}
+2021-06-23 03:39:45 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433984, 'content': 'a', 'id': 125823858, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418845}, {'event_type': 1, 'time_stamp': 1624433985, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>', 'id': 125823859, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418846}], 't': 125823859, 'd': 2}
+2021-06-23 03:39:45     e
+2021-06-23 03:39:46 Got activity {'t': 125823860, 'd': 3}
+2021-06-23 03:39:47 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624433985, 'content': "<pre class='full'>e</pre>", 'id': 125823860, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418847}], 't': 125823860, 'd': 1}
+2021-06-23 03:40:11 --- NEW LOGIN ---
+2021-06-23 03:40:12 Credidentials retrieved successfully
+2021-06-23 03:40:13 Logging to SE - OK
+2021-06-23 03:40:13 Loading SE profile - OK
+2021-06-23 03:40:14 Got chat fkey : f24e0ca8c1b164dd40f6516a68db71f4
+2021-06-23 03:40:14 Login to the SE chat successful
+2021-06-23 03:40:14 Got activity {'t': 125823933, 'd': -1498610081}
+2021-06-23 03:40:15 Got activity {'t': 125823933, 'd': -1498610081}
+2021-06-23 03:40:20 Got activity {'t': 125823934, 'd': 1}
+2021-06-23 03:40:20 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434019, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>', 'id': 125823934, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418849}], 't': 125823934, 'd': 1}
+2021-06-23 03:40:20     e
+2021-06-23 03:40:22 Got activity {'t': 125823936, 'd': 2}
+2021-06-23 03:40:22 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434020, 'content': "<pre class='full'>e</pre>", 'id': 125823935, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418850}], 't': 125823936, 'd': 2}
+2021-06-23 03:40:23 Got activity {'t': 125823938, 'd': 2}
+2021-06-23 03:40:23 Got activity {'t': 125823938, 'd': 2}
+2021-06-23 03:40:48 Got activity {'t': 125823940, 'd': 1}
+2021-06-23 03:40:48 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434046, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d', 'id': 125823940, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418853}], 't': 125823940, 'd': 1}
+2021-06-23 03:40:49 Got activity {'t': 125823943, 'd': 3}
+2021-06-23 03:40:50 Got activity {'t': 125823943, 'd': 3}
+2021-06-23 03:41:03 --- NEW LOGIN ---
+2021-06-23 03:41:04 Credidentials retrieved successfully
+2021-06-23 03:41:04 Logging to SE - OK
+2021-06-23 03:41:04 Caught by CAPTCHA
+2021-06-23 03:41:04 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:41:30 --- NEW LOGIN ---
+2021-06-23 03:41:31 Credidentials retrieved successfully
+2021-06-23 03:41:32 Logging to SE - OK
+2021-06-23 03:41:32 Caught by CAPTCHA
+2021-06-23 03:41:32 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:41:36 --- NEW LOGIN ---
+2021-06-23 03:43:59 Credidentials retrieved successfully
+2021-06-23 03:43:59 Logging to SE - OK
+2021-06-23 03:43:59 Loading SE profile - OK
+2021-06-23 03:44:00 Got chat fkey : 01232da038cf6374fed3fa2e58032197
+2021-06-23 03:44:00 Login to the SE chat successful
+2021-06-23 03:44:01 Got activity {'t': 125823988, 'd': -1498610252}
+2021-06-23 03:44:01 Got activity {'t': 125823988, 'd': -1498610252}
+2021-06-23 03:44:04 Got activity {'t': 125823990, 'd': 2}
+2021-06-23 03:44:05 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434243, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d', 'id': 125823989, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418868}], 't': 125823990, 'd': 2}
+2021-06-23 03:44:06 Got activity {'t': 125823992, 'd': 2}
+2021-06-23 03:44:06 Got activity {'t': 125823992, 'd': 2}
+2021-06-23 03:44:20 --- NEW LOGIN ---
+2021-06-23 03:44:21 Credidentials retrieved successfully
+2021-06-23 03:44:21 Logging to SE - OK
+2021-06-23 03:44:21 Caught by CAPTCHA
+2021-06-23 03:44:21 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:44:47 --- NEW LOGIN ---
+2021-06-23 03:44:49 Credidentials retrieved successfully
+2021-06-23 03:44:49 Logging to SE - OK
+2021-06-23 03:44:50 Loading SE profile - OK
+2021-06-23 03:44:50 Got chat fkey : 8015886bf7c9932a82db26e8a4cf31ab
+2021-06-23 03:44:50 Login to the SE chat successful
+2021-06-23 03:44:51 Got activity {'t': 125824003, 'd': -1498610287}
+2021-06-23 03:44:52 Got activity {'t': 125824003, 'd': -1498610288}
+2021-06-23 03:44:53 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434293, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>', 'id': 125824004, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418881}], 't': 125824004, 'd': 1}
+2021-06-23 03:44:53     e
+2021-06-23 03:44:54 Got activity {'t': 125824005, 'd': 2}
+2021-06-23 03:44:55 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434293, 'content': "<pre class='full'>e</pre>", 'id': 125824005, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418882}], 't': 125824005, 'd': 1}
+2021-06-23 03:45:03 Got activity {'t': 125824018, 'd': 3}
+2021-06-23 03:45:04 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434303, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d', 'id': 125824017, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418884}], 't': 125824018, 'd': 3}
+2021-06-23 03:45:29 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434328, 'content': 'The failing testcase has something to tell you', 'id': 125824023, 'user_id': 337270, 'user_name': 'Bubbler', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418886}], 't': 125824023, 'd': 1}
+2021-06-23 03:45:30 Got activity {'t': 125824023, 'd': 1}
+2021-06-23 03:45:31 Got activity {'t': 125824024, 'd': 1}
+2021-06-23 03:45:31 Got activity {'t': 125824024, 'd': 1}
+2021-06-23 03:45:40 --- NEW LOGIN ---
+2021-06-23 03:47:19 Credidentials retrieved successfully
+2021-06-23 03:47:19 Logging to SE - OK
+2021-06-23 03:47:19 Loading SE profile - OK
+2021-06-23 03:47:20 Got chat fkey : f0938bbf6514effcc13d422431f65add
+2021-06-23 03:47:20 Login to the SE chat successful
+2021-06-23 03:47:21 Got activity {'t': 125824053, 'd': -1498610387}
+2021-06-23 03:47:22 Got activity {'t': 125824054, 'd': -1498610386}
+2021-06-23 03:47:24 Got activity {'t': 125824056, 'd': 2}
+2021-06-23 03:47:25 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434443, 'content': '<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>', 'id': 125824056, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418901}], 't': 125824056, 'd': 1}
+2021-06-23 03:47:25     a
+    c
+    e
+2021-06-23 03:47:25 Got activity {'t': 125824057, 'd': 1}
+2021-06-23 03:47:26 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434445, 'content': "<pre class='full'>a\r\nc\r\ne</pre>", 'id': 125824057, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418902}], 't': 125824057, 'd': 1}
+2021-06-23 03:47:28 Got activity {'t': 125824058, 'd': 1}
+2021-06-23 03:47:30 Got activity {'t': 125824059, 'd': 1}
+2021-06-23 03:47:31 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434449, 'content': '<code>⎕&larr;a</code>', 'id': 125824059, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418904}], 't': 125824059, 'd': 1}
+2021-06-23 03:47:31     a
+2021-06-23 03:47:31 Got activity {'t': 125824060, 'd': 1}
+2021-06-23 03:47:32 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434451, 'content': "<pre class='full'>a</pre>", 'id': 125824060, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418905}], 't': 125824060, 'd': 1}
+2021-06-23 03:47:33 Got activity {'t': 125824061, 'd': 1}
+2021-06-23 03:47:34 Got activity {'t': 125824061, 'd': 1}
+2021-06-23 03:47:44 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434464, 'content': "<pre class='full'>hello\r\nworld</pre>", 'id': 125824064, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418909}], 't': 125824065, 'd': 2}
+2021-06-23 03:47:45 Got activity {'t': 125824065, 'd': 2}
+2021-06-23 03:48:03 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434483, 'content': "<pre class='full'>&lt;code&gt;hello&lt;/code&gt;</pre>", 'id': 125824068, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418911}], 't': 125824068, 'd': 1}
+2021-06-23 03:48:04 Got activity {'t': 125824068, 'd': 1}
+2021-06-23 03:48:25 Got activity {'t': 125824071, 'd': 1}
+2021-06-23 03:48:26 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434505, 'content': "<pre class='full'>⎕&larr;hello\r\n⋄world</pre>", 'id': 125824071, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418913}], 't': 125824071, 'd': 1}
+2021-06-23 03:50:59 Got activity {'t': 125824165, 'd': 1}
+2021-06-23 03:51:30 Got activity {'t': 125824172, 'd': 2}
+2021-06-23 03:51:53 --- NEW LOGIN ---
+2021-06-23 03:51:54 Credidentials retrieved successfully
+2021-06-23 03:51:54 Logging to SE - OK
+2021-06-23 03:51:55 Loading SE profile - OK
+2021-06-23 03:51:55 Got chat fkey : a5c5956f637f450ed7995a5798b276f7
+2021-06-23 03:51:55 Login to the SE chat successful
+2021-06-23 03:51:56 Got activity {'t': 125824180, 'd': -1498610536}
+2021-06-23 03:51:58 Got activity {'t': 125824180, 'd': -1498610536}
+2021-06-23 03:52:31 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434750, 'content': "<pre class='full'>1234\r\n⎕&larr;hello\r\nabcd\r\n⋄world\r\nefgh</pre>", 'id': 125824188, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418937}], 't': 125824188, 'd': 1}
+2021-06-23 03:52:31 Got activity {'t': 125824188, 'd': 1}
+2021-06-23 03:52:51 --- NEW LOGIN ---
+2021-06-23 03:52:55 Credidentials retrieved successfully
+2021-06-23 03:52:56 Logging to SE - OK
+2021-06-23 03:52:56 Loading SE profile - OK
+2021-06-23 03:52:57 Got chat fkey : 632a78facc6a7d461253b20b9201c9d9
+2021-06-23 03:52:57 Login to the SE chat successful
+2021-06-23 03:52:58 Got activity {'t': 125824194, 'd': -1498610583}
+2021-06-23 03:52:58 Got activity {'t': 125824196, 'd': -1498610581}
+2021-06-23 03:52:59 Got activity {'t': 125824196, 'd': 2}
+2021-06-23 03:53:02 Got activity {'t': 125824197, 'd': 1}
+2021-06-23 03:53:03 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434782, 'content': 'a', 'id': 125824197, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418944}], 't': 125824197, 'd': 1}
+2021-06-23 03:53:05 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434784, 'content': "<pre class='full'>1234\r\n⎕&larr;hello\r\nabcd\r\n⋄world\r\nefgh</pre>", 'id': 125824198, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418945}], 't': 125824198, 'd': 1}
+2021-06-23 03:53:05 Got activity {'t': 125824198, 'd': 1}
+2021-06-23 03:53:06 Got activity {'t': 125824200, 'd': 2}
+2021-06-23 03:53:07 Got activity {'t': 125824200, 'd': 2}
+2021-06-23 03:53:30 --- NEW LOGIN ---
+2021-06-23 03:53:38 Credidentials retrieved successfully
+2021-06-23 03:53:38 Logging to SE - OK
+2021-06-23 03:53:39 Loading SE profile - OK
+2021-06-23 03:53:39 Got chat fkey : 741e779e4c6bc855564c086b3ef6a171
+2021-06-23 03:53:39 Login to the SE chat successful
+2021-06-23 03:53:40 Got activity {'t': 125824205, 'd': -1498610615}
+2021-06-23 03:53:41 Got activity {'t': 125824205, 'd': -1498610614}
+2021-06-23 03:53:42 Got activity {'t': 125824206, 'd': 1}
+2021-06-23 03:53:42 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434821, 'content': 'a', 'id': 125824206, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418950}], 't': 125824206, 'd': 1}
+2021-06-23 03:53:43 Got activity {'t': 125824207, 'd': 1}
+2021-06-23 03:53:44 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624434822, 'content': "<pre class='full'>1234\r\n⎕&larr;hello\r\nabcd\r\n⋄world\r\nefgh</pre>", 'id': 125824207, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58418951}], 't': 125824207, 'd': 1}
+2021-06-23 03:53:57 --- NEW LOGIN ---
+2021-06-23 03:53:58 Credidentials retrieved successfully
+2021-06-23 03:53:58 Logging to SE - OK
+2021-06-23 03:53:59 Caught by CAPTCHA
+2021-06-23 03:53:59 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:54:02 --- NEW LOGIN ---
+2021-06-23 03:54:38 Credidentials retrieved successfully
+2021-06-23 03:54:39 Logging to SE - OK
+2021-06-23 03:54:39 Caught by CAPTCHA
+2021-06-23 03:54:39 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:54:45 --- NEW LOGIN ---
+2021-06-23 03:54:46 Credidentials retrieved successfully
+2021-06-23 03:54:46 Logging to SE - OK
+2021-06-23 03:54:47 Caught by CAPTCHA
+2021-06-23 03:54:47 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:54:50 --- NEW LOGIN ---
+2021-06-23 03:55:30 Credidentials retrieved successfully
+2021-06-23 03:55:31 Logging to SE - OK
+2021-06-23 03:55:31 Caught by CAPTCHA
+2021-06-23 03:55:31 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:56:04 --- NEW LOGIN ---
+2021-06-23 03:56:04 Credidentials retrieved successfully
+2021-06-23 03:56:05 Logging to SE - OK
+2021-06-23 03:56:05 Caught by CAPTCHA
+2021-06-23 03:56:05 Loading SE profile - FAILURE -  aborting
+2021-06-23 03:58:14 --- NEW LOGIN ---
+2021-06-23 03:58:15 Credidentials retrieved successfully
+2021-06-23 03:58:15 Logging to SE - OK
+2021-06-23 03:58:15 Loading SE profile - OK
+2021-06-23 03:58:16 Got chat fkey : 901fe1a96e37cf81160c7f37d7b32482
+2021-06-23 03:58:16 Login to the SE chat successful
+2021-06-23 03:58:17 Got activity {'t': 125824301, 'd': -1498610795}
+2021-06-23 03:58:18 Got activity {'t': 125824301, 'd': -1498610795}
+2021-06-23 03:58:20 Got activity {'t': 125824302, 'd': 1}
+2021-06-23 03:58:20 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435099, 'content': "<pre class='full'>1234\r\n⎕&larr;hello\r\nabcd\r\n⋄world\r\nefgh</pre>", 'id': 125824302, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419008}], 't': 125824302, 'd': 1}
+2021-06-23 03:58:21 Got activity {'t': 125824303, 'd': 1}
+2021-06-23 03:58:31 --- NEW LOGIN ---
+2021-06-23 03:58:32 Credidentials retrieved successfully
+2021-06-23 03:58:33 Logging to SE - OK
+2021-06-23 03:58:33 Loading SE profile - OK
+2021-06-23 03:58:33 Got chat fkey : 39abf525e23ba559215ae4d748f5d83e
+2021-06-23 03:58:33 Login to the SE chat successful
+2021-06-23 03:58:35 Got activity {'t': 125824305, 'd': -1498610809}
+2021-06-23 03:58:35 Got activity {'t': 125824305, 'd': -1498610809}
+2021-06-23 03:58:37 Got activity {'t': 125824306, 'd': 1}
+2021-06-23 03:58:38 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435116, 'content': '---', 'id': 125824306, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419011}], 't': 125824306, 'd': 1}
+2021-06-23 03:58:38 Got activity {'t': 125824307, 'd': 1}
+2021-06-23 03:58:39 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435118, 'content': "<pre class='full'>1234\r\n⎕&larr;hello\r\nabcd\r\n⋄world\r\nefgh</pre>", 'id': 125824307, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419012}], 't': 125824307, 'd': 1}
+2021-06-23 03:58:39     hello
+    world
+2021-06-23 03:58:40 Got activity {'t': 125824308, 'd': 1}
+2021-06-23 03:58:41 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435119, 'content': "<pre class='full'>hello\r\nworld</pre>", 'id': 125824308, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419013}], 't': 125824308, 'd': 1}
+2021-06-23 04:01:15 Got activity {'t': 125824419, 'd': 1}
+2021-06-23 04:02:15 Got activity {'t': 125824426, 'd': 1}
+2021-06-23 04:03:34 --- NEW LOGIN ---
+2021-06-23 04:03:36 Credidentials retrieved successfully
+2021-06-23 04:03:37 Logging to SE - OK
+2021-06-23 04:03:37 Loading SE profile - OK
+2021-06-23 04:03:38 Got chat fkey : ee519a801bc9809094d0e473e52941b9
+2021-06-23 04:03:38 Login to the SE chat successful
+2021-06-23 04:03:39 Got activity {'t': 125824428, 'd': -1498610990}
+2021-06-23 04:03:40 Got activity {'t': 125824428, 'd': -1498610991}
+2021-06-23 04:03:49 Got activity {'t': 125824429, 'd': 1}
+2021-06-23 04:03:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435429, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824429, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419036}], 't': 125824429, 'd': 1}
+2021-06-23 04:04:18 --- NEW LOGIN ---
+2021-06-23 04:04:19 Credidentials retrieved successfully
+2021-06-23 04:04:19 Logging to SE - OK
+2021-06-23 04:04:20 Loading SE profile - OK
+2021-06-23 04:04:20 Got chat fkey : f301ccd4d5012ee9aef7ad62a03d72c6
+2021-06-23 04:04:20 Login to the SE chat successful
+2021-06-23 04:04:21 Got activity {'t': 125824432, 'd': -1498611029}
+2021-06-23 04:04:21 Got activity {'t': 125824432, 'd': -1498611028}
+2021-06-23 04:04:23 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435463, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824433, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419037}], 't': 125824433, 'd': 1}
+2021-06-23 04:04:23 Got activity {'t': 125824433, 'd': 1}
+2021-06-23 04:04:23 :58419037 unexpected bot error running this code; if this persists, please contact a developer
+2021-06-23 04:04:24 Got activity {'t': 125824436, 'd': 3}
+2021-06-23 04:04:24 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435463, 'content': '@hyper-neutrino unexpected bot error running this code; if this persists, please contact a developer', 'id': 125824435, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419038, 'parent_id': 58419037, 'show_parent': True}], 't': 125824436, 'd': 3}
+2021-06-23 04:04:26 Got activity {'t': 125824437, 'd': 1}
+2021-06-23 04:04:26 Got activity {'t': 125824437, 'd': 1}
+2021-06-23 04:04:42 --- NEW LOGIN ---
+2021-06-23 04:04:45 Credidentials retrieved successfully
+2021-06-23 04:04:46 Logging to SE - OK
+2021-06-23 04:04:46 Loading SE profile - OK
+2021-06-23 04:04:47 Got chat fkey : db7e0f98eb2ba77ff6ec5e067410d574
+2021-06-23 04:04:47 Login to the SE chat successful
+2021-06-23 04:04:48 Got activity {'t': 125824451, 'd': -1498611036}
+2021-06-23 04:04:48 Got activity {'t': 125824451, 'd': -1498611036}
+2021-06-23 04:04:50 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435489, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824452, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419042}], 't': 125824452, 'd': 1}
+2021-06-23 04:04:50 :58419042 unexpected bot error running this code; if this persists, please contact a developer
+2021-06-23 04:04:50 Got activity {'t': 125824452, 'd': 1}
+2021-06-23 04:04:52 Got activity {'t': 125824454, 'd': 2}
+2021-06-23 04:05:08 --- NEW LOGIN ---
+2021-06-23 04:05:09 Credidentials retrieved successfully
+2021-06-23 04:05:09 Logging to SE - OK
+2021-06-23 04:05:10 Caught by CAPTCHA
+2021-06-23 04:05:10 Loading SE profile - FAILURE -  aborting
+2021-06-23 04:07:51 --- NEW LOGIN ---
+2021-06-23 04:07:52 Credidentials retrieved successfully
+2021-06-23 04:07:52 Logging to SE - OK
+2021-06-23 04:07:53 Caught by CAPTCHA
+2021-06-23 04:07:53 Loading SE profile - FAILURE -  aborting
+2021-06-23 04:09:25 --- NEW LOGIN ---
+2021-06-23 04:09:26 Credidentials retrieved successfully
+2021-06-23 04:09:27 Logging to SE - OK
+2021-06-23 04:09:28 Loading SE profile - OK
+2021-06-23 04:09:29 Got chat fkey : 0c069203ad04ec1e18e0e580e1127223
+2021-06-23 04:09:29 Login to the SE chat successful
+2021-06-23 04:09:30 Got activity {'t': 125824514, 'd': -1498611255}
+2021-06-23 04:09:31 Got activity {'t': 125824514, 'd': -1498611256}
+2021-06-23 04:09:32 Got activity {'t': 125824515, 'd': 1}
+2021-06-23 04:09:33 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435771, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824515, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419072}], 't': 125824515, 'd': 1}
+2021-06-23 04:09:34     hello
+    world
+@hyper-neutrino
+2021-06-23 04:09:35 Got activity {'t': 125824518, 'd': 3}
+2021-06-23 04:09:36 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435774, 'content': "<div class='full'>hello <br> world <br> @hyper-neutrino</div>", 'id': 125824517, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419073, 'parent_id': 58419072}], 't': 125824518, 'd': 3}
+2021-06-23 04:09:51 --- NEW LOGIN ---
+2021-06-23 04:09:52 Credidentials retrieved successfully
+2021-06-23 04:09:53 Logging to SE - OK
+2021-06-23 04:09:53 Loading SE profile - OK
+2021-06-23 04:09:54 Got chat fkey : 9a26cb2d1e8a0b6e4c662fea332b6cc1
+2021-06-23 04:09:54 Login to the SE chat successful
+2021-06-23 04:09:55 Got activity {'t': 125824520, 'd': -1498611274}
+2021-06-23 04:09:56 Got activity {'t': 125824521, 'd': -1498611273}
+2021-06-23 04:09:57 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435796, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824521, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419076}], 't': 125824521, 'd': 1}
+2021-06-23 04:09:58     hello
+    world
+    @hyper-neutrino
+2021-06-23 04:09:59 Got activity {'t': 125824523, 'd': 2}
+2021-06-23 04:10:00 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435798, 'content': "<pre class='full'>hello\r\nworld\r\n@hyper-neutrino</pre>", 'id': 125824523, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419077, 'parent_id': 58419076}], 't': 125824543, 'd': 22}
+2021-06-23 04:10:01 Got activity {'t': 125824577, 'd': 54}
+2021-06-23 04:10:02 Got activity {'t': 125824603, 'd': 60}
+2021-06-23 04:10:15 --- NEW LOGIN ---
+2021-06-23 04:10:17 Credidentials retrieved successfully
+2021-06-23 04:10:18 Logging to SE - OK
+2021-06-23 04:10:18 Loading SE profile - OK
+2021-06-23 04:10:19 Got chat fkey : b924ee53a23f73693eafb6d0492aaba3
+2021-06-23 04:10:19 Login to the SE chat successful
+2021-06-23 04:10:20 Got activity {'t': 125824609, 'd': -1498611210}
+2021-06-23 04:10:20 Got activity {'t': 125824609, 'd': -1498611210}
+2021-06-23 04:10:22 Got activity {'t': 125824610, 'd': 1}
+2021-06-23 04:10:22 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435820, 'content': '<code>⎕&larr;&#39;hello&#39;</code> and also <code>⎕&larr;&#39;world&#39;</code>', 'id': 125824610, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419082}], 't': 125824610, 'd': 1}
+2021-06-23 04:10:23     hello
+    world
+    
+    @hyper-neutrino
+2021-06-23 04:10:25 Got activity {'t': 125824612, 'd': 2}
+2021-06-23 04:10:25 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435824, 'content': "<pre class='full'>hello\r\nworld\r\n\r\n@hyper-neutrino</pre>", 'id': 125824612, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419083, 'parent_id': 58419082}], 't': 125824612, 'd': 2}
+2021-06-23 04:10:26 Got activity {'t': 125824613, 'd': 1}
+2021-06-23 04:10:26 Got activity {'t': 125824613, 'd': 1}
+2021-06-23 04:10:37 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435836, 'content': "<pre class='full'>⎕&larr;&#39;hello&#39;\r\n⎕&larr;&#39;world&#39;</pre>", 'id': 125824615, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419086}], 't': 125824615, 'd': 2}
+2021-06-23 04:10:37 Got activity {'t': 125824615, 'd': 2}
+2021-06-23 04:10:38     hello
+    world
+    
+    @hyper-neutrino
+2021-06-23 04:11:02 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435861, 'content': "<pre class='full'>⎕&larr;&#39;hello&#39;</pre>", 'id': 125824625, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419091}], 't': 125824625, 'd': 1}
+2021-06-23 04:11:02 Got activity {'t': 125824625, 'd': 1}
+2021-06-23 04:11:03 :58419091 `hello`
+2021-06-23 04:11:03 Got activity {'t': 125824627, 'd': 2}
+2021-06-23 04:11:05 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435863, 'content': '@hyper-neutrino <code>hello</code>', 'id': 125824627, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419092, 'parent_id': 58419091, 'show_parent': True}], 't': 125824627, 'd': 2}
+2021-06-23 04:11:15 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435875, 'content': "<pre class='full'>⎕&larr;&#39;hello&#39;\r\n⎕&larr;&#39;world&#39;</pre>", 'id': 125824628, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419093}], 't': 125824628, 'd': 1}
+2021-06-23 04:11:16 Got activity {'t': 125824628, 'd': 1}
+2021-06-23 04:11:17     hello
+    world
+    
+    @hyper-neutrino
+2021-06-23 04:11:17 Got activity {'t': 125824629, 'd': 1}
+2021-06-23 04:11:17 Got activity {'t': 125824631, 'd': 3}
+2021-06-23 04:11:18 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435877, 'content': "<pre class='full'>hello\r\nworld\r\n\r\n@hyper-neutrino</pre>", 'id': 125824631, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419095, 'parent_id': 58419093}], 't': 125824631, 'd': 2}
+2021-06-23 04:11:53 Got activity {'t': 125824638, 'd': 1}
+2021-06-23 04:11:53 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435912, 'content': "<pre class='full'>This line shouldn&#39;t be run.\r\n⎕&larr;&#39;hello&#39;\r\nNeither should this line, but the one before and after it should.\r\n⋄&#39;world&#39;</pre>", 'id': 125824638, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419100}], 't': 125824638, 'd': 1}
+2021-06-23 04:11:55     hello
+    world
+    
+    @hyper-neutrino
+2021-06-23 04:11:56 Got activity {'t': 125824640, 'd': 2}
+2021-06-23 04:11:56 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435915, 'content': "<pre class='full'>hello\r\nworld\r\n\r\n@hyper-neutrino</pre>", 'id': 125824640, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419101, 'parent_id': 58419100}], 't': 125824640, 'd': 2}
+2021-06-23 04:12:22 Got activity {'t': 125824649, 'd': 1}
+2021-06-23 04:12:22 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435942, 'content': '<code>⋄3 3⍴⍳9⋄2 2⍴⍳4</code>', 'id': 125824649, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419104}], 't': 125824649, 'd': 1}
+2021-06-23 04:12:24     1 2 3
+    4 5 6
+    7 8 9
+    1 2
+    3 4
+    
+    @hyper-neutrino
+2021-06-23 04:12:25 Got activity {'t': 125824651, 'd': 2}
+2021-06-23 04:12:25 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624435944, 'content': "<pre class='full'>1 2 3\r\n4 5 6\r\n7 8 9\r\n1 2\r\n3 4\r\n\r\n@hyper-neutrino</pre>", 'id': 125824651, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 1, 'room_name': 'Sandbox', 'message_id': 58419105, 'parent_id': 58419104}], 't': 125824651, 'd': 2}
+2021-06-23 04:12:27 Got activity {'t': 125824652, 'd': 1}
+2021-06-23 04:12:27 Got activity {'t': 125824652, 'd': 1}
+2021-06-23 04:13:28 Got activity {'t': 125824665, 'd': 1}
+2021-06-23 04:13:28 Got activity {'t': 125824665, 'd': 1}
+2021-06-23 04:14:02 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436042, 'content': 'Okay so assuming I&#39;ve done everything correctly - in a normal message, all code sections starting with either <code>⎕&larr;</code> or <code>⋄</code> will be joined by <code>⋄</code> and run, and in a multiline fixed-font message, all lines starting with <code>⎕&larr;</code> or <code>⋄</code> will be run. If the output is blank or one line, it will reply in-line; otherwise, it will use a multi-line message and just ping you normally at the end. I have no special casing for message that would be too long for one message yet.', 'id': 125824667, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419116}], 't': 125824667, 'd': 1}
+2021-06-23 04:14:03 Got activity {'t': 125824670, 'd': 4}
+2021-06-23 04:14:03 :58419116 `<empty response>`
+2021-06-23 04:14:04 Got activity {'t': 125824670, 'd': 3}
+2021-06-23 04:14:04 Got activity {'t': 125824672, 'd': 2}
+2021-06-23 04:14:05 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436044, 'content': '@hyper-neutrino <code>&lt;empty response&gt;</code>', 'id': 125824672, 'user_id': 296403, 'user_name': 'Experimental APL Bot', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419117, 'parent_id': 58419116, 'show_parent': True}], 't': 125824672, 'd': 2}
+2021-06-23 04:14:06 Got activity {'t': 125824673, 'd': 1}
+2021-06-23 04:14:36 Got activity {'t': 125824684, 'd': 2}
+2021-06-23 04:14:37 Got activity {'t': 125824684, 'd': 2}
+2021-06-23 04:15:42 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436141, 'content': '@hyper-neutrino Could you make an exception rule so that a lone ⋄ or a lone ⎕&larr; are ignored?', 'id': 125824698, 'user_id': 130368, 'user_name': 'Adám', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419135, 'parent_id': 58419116, 'show_parent': True}], 't': 125824698, 'd': 2}
+2021-06-23 04:15:42 Got activity {'t': 125824698, 'd': 2}
+2021-06-23 04:16:12 Got activity {'t': 125824705, 'd': 1}
+2021-06-23 04:16:13 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436171, 'content': 'good idea', 'id': 125824705, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419141}], 't': 125824705, 'd': 1}
+2021-06-23 04:16:17 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436177, 'content': 'i can just change <code>*</code> to <code>+</code> in my regex :p', 'id': 125824707, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419142}], 't': 125824707, 'd': 1}
+2021-06-23 04:16:18 Got activity {'t': 125824707, 'd': 1}
+2021-06-23 04:16:42 --- NEW LOGIN ---
+2021-06-23 04:16:43 Credidentials retrieved successfully
+2021-06-23 04:16:43 Logging to SE - OK
+2021-06-23 04:16:43 Loading SE profile - OK
+2021-06-23 04:16:44 Got chat fkey : 9146bafc63aeb21871d696660d942a23
+2021-06-23 04:16:44 Login to the SE chat successful
+2021-06-23 04:16:46 Got activity {'t': 125824707, 'd': -1498611497}
+2021-06-23 04:16:46 Got activity {'t': 125824707, 'd': -1498611498}
+2021-06-23 04:16:47 Got activity {'e': [{'event_type': 1, 'time_stamp': 1624436207, 'content': 'alright, change applied', 'id': 125824708, 'user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58419143}], 't': 125824708, 'd': 1}
+2021-06-23 04:16:49 Got activity {'t': 125824708, 'd': 1}

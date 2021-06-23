@@ -1,0 +1,703 @@
+Agent pid 1148704
+Identity added: /home/hyper-neutrino/.ssh/github_rsa (hyper-neutrino@ubuntu)
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [Khyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ ls
+[0m[01;34m1[0m  [01;34m52405[0m  aplbotlog.txt  aplbot.py  chatbot.py  config.json  Credidentials  [01;34mlogs[0m  [01;34m__pycache__[0m
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : fd8af89fc845dc4a933f354f315dbeb3'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/786c752f791042429ac389ab6b3a7a13"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/8eca9f443f324ea2a4a8408a8ff3cf91"}
+@hyper-neutrino Ooh, new, shiny. <code>⎕←⍳2 3</code>
+Oh, is it supposed to detect <code>⎕←</code> everywhere in the message? oops :)
+<Log> b"      'test'\n    test"
+⎕←'test'
+<pre class='full'>  'test'
+test</pre>
+@hyper-neutrino Any <code>`⎕←…`</code> I'd say.
+alright, that makes sense :) if a message has multiple should I just run them all in succession?
+Sure. Also, I don't think it has to echo back the requested expression.
+good point
+You can merge all the expressions from a single message using <code>⋄</code>
+<Log> b'Event: User joined'
+<Log> b"Event details: {'event_type': 3, 'time_stamp': 1624430749, 'id': 125822647, 'user_id': 281362, 'target_user_id': 281362, 'user_name': 'hyper-neutrino', 'room_id': 1, 'room_name': 'Sandbox'}"
+Meanwhile, an APL answer for <a href="https://codegolf.stackexchange.com/q/230339/78410">checkered tiling</a> is still up for the grabs :P
+<Log> b'       3 3 \xe2\x8d\xb4 \xe2\x8d\xb3 9 \xe2\x8b\x84 2 2 \xe2\x8d\xb4 \xe2\x8d\xb3 4\n    1 2 3\n    4 5 6\n    7 8 9\n    1 2\n    3 4'
+⎕← 3 3 ⍴ ⍳ 9 ⋄ 2 2 ⍴ ⍳ 4
+<pre class='full'>   3 3 ⍴ ⍳ 9 ⋄ 2 2 ⍴ ⍳ 4
+1 2 3
+4 5 6
+7 8 9
+1 2
+3 4</pre>
+i am very sad that my approach is wrong :pensive:
+Would it be possible to make it react also to <code>`⋄…`</code>?
+<Log> b'      a\xe2\x86\x90\xe2\x8d\xb33'
+⎕←a←⍳3
+<pre class='full'>  a←⍳3</pre>
+@Adám like, on its own, so you would be able to do ( <code>⎕←code</code> some-text <code>⋄ other code</code> ) ?
+@hyper-neutrino I said something wrong the other day when I described the desired behaviour. I think I said it should execute "the rest" i.e. after <code>⎕←</code> but it should actually include the <code>⎕←</code>
+nah the prefix for the older bot was <code>⋄code⋄other code</code>
+@hyper-neutrino No, it would be an alternative syntax. You can safely include the <code>⋄</code> as well.
+@Adám oh
+The point is to all things like <code>⋄ a←⍳3 ⋄ 2×a</code> and also <code>⎕←a←⍳3</code>
+@Adám okay. so basically, find all <code>`⎕←...`</code> and all <code>`⋄ ...`</code>, remove the <code>⋄</code>s from the start of the latter type, join all of them on <code>⋄</code>, and then run the statement?
+<Log> b'      3 3 \xe2\x8d\xb4 3\n    3 3 3\n    3 3 3\n    3 3 3'
+⎕←3 3 ⍴ 3
+<pre class='full'>  3 3 ⍴ 3
+3 3 3
+3 3 3
+3 3 3</pre>
+oh it prints the experssion again and then the output
+@hyper-neutrino You don't even need to remove the leading diamonds, as it is all valid APL :-)
+yeah adam mentioned that the expression itself doesn't really need to be output
+@Razetime I think HN is going to remove that.
+@Adám oh, right :P
+alright
+`\`
+\
+@hyper-neutrino But you might want to make the bot reply to the task message.
+@Adám i can't figure out how to get that to work with multiline monospace
+<Log> b'Event: User joined'
+<Log> b"Event details: {'event_type': 3, 'time_stamp': 1624431135, 'id': 125822825, 'user_id': 130368, 'target_user_id': 130368, 'user_name': 'Ad\xc3\xa1m', 'room_id': 1, 'room_name': 'Sandbox'}"
+<Log> b'       +\\ 1 2 3 4 5\n    1 3 6 10 15'
+⎕← +\ 1 2 3 4 5
+<pre class='full'>   +\ 1 2 3 4 5
+1 3 6 10 15</pre>
+<Log> b'      +\\1 2 3 4 5\n    1 3 6 10 15'
+⎕←+\1 2 3 4 5
+<pre class='full'>  +\1 2 3 4 5
+1 3 6 10 15</pre>
+<Log> b"      '`'\n    `"
+⎕←'`'
+<pre class='full'>  '`'
+`</pre>
+<pre class='full'>:58418412 abc</pre>
+<Log> b"      '\\`'\n    \\`"
+⎕←'\`'
+<pre class='full'>  '\`'
+\`</pre>
+@hyper-neutrino Good point. Would it be possible for the bot to reply with an inline code block if the output only has one line?
+@Adám yes, I can special-case that - good suggestion
+<pre class='full'>@ExperimentalAPLBot abc
+def</pre>
+<Log> b'Event: Bot was pinged'
+<Log> b'Event details: {\'event_type\': 8, \'time_stamp\': 1624431265, \'content\': "<pre class=\'full\'>@ExperimentalAPLBot abc\\r\\ndef</pre>", \'id\': 125822862, \'user_id\': 130368, \'target_user_id\': 296403, \'user_name\': \'Ad\xc3\xa1m\', \'room_id\': 1, \'room_name\': \'Sandbox\', \'message_id\': 58418425, \'parent_id\': 58418418}'
+<Log> b'Event: Bot was pinged'
+<Log> b'Event details: {\'event_type\': 8, \'time_stamp\': 1624431265, \'content\': "<pre class=\'full\'>@ExperimentalAPLBot abc\\r\\ndef</pre>", \'id\': 125822862, \'user_id\': 130368, \'target_user_id\': 296403, \'user_name\': \'Ad\xc3\xa1m\', \'room_id\': 1, \'room_name\': \'Sandbox\', \'message_id\': 58418425, \'parent_id\': 58418418}'
+<pre class='full'>@hyper-neutrino
+Does this ping you?</pre>
+it makes the sound and brings up the circle in the corner of my avatar but it doesn't highlight the ping in the message :P
+<pre class='full'>:58418431
+Does this?</pre>
+nope :(
+So maybe use the explicit @username form for multiline.
+@Bubbler I have 17
+o wow
+you mentioned there's a hint you'd only mention if someone found it - i presume the py/js ones have not :P
+yeah, looks like i'll have to do that
+Python one is manually coloring it to the end, and I don't want to decipher the JS one now :P
+<pre class='full'>Does this ping you?
+@hyper-neutrino</pre>
+yes
+fair enough lol
+<div class='full'>abc <br> `⎕←⍳3`</div>
+OK, good.
+<pre class='full'>⎕←⍳4</pre>
+oh should i also match four spaces plus <code>⎕←...</code> or diamond <code>...</code>
+Sure, if not too much work.
+that should be hopefully easy to add... assuming i'm not dumb :p
+Are you sure you don't mind me asking for features?
+Yeah, I don't mind - I can't promise I can devote too much time to this but I have enough experience with python discord and SE chat bots and it's a fun project :)
+`
+the messages i receive on the backend delimit by <code><code>...</code></code> which prevents needing to worry about parsing markdown and how backslash or backtick escaping works out :P
+it is time to parse HTML with regex
+abc<code>def</code>ghi
+abc<code>def</code>ghi
+those are indistinguishable from the backend it seems :/
+oh wait - i am doing html unescape. one of them might be different
+@Bubbler very honestly do not know how to solve it
+i do know that the existence of any 3-connected block with completely unique chars is falsy
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 84858591039bc5fdd809c793018446eb'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/16f327406320451cb1c58d2216daec6c"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/41d4c419ebdb4e7bb4f6796efbe5f766"}
+abc<code>def</code>ghi
+abc&lt;code&gt;def&lt;/code&gt;ghi
+<Log> b'Event: Message deleted'
+<Log> b"Event details: {'event_type': 10, 'time_stamp': 1624432794, 'id': 125823537, 'user_id': 165520, 'user_name': 'Razetime', 'room_id': 52405, 'room_name': 'The APL Orchard', 'message_id': 58418690}"
+yeah they&#39;re html entities
+ofc
+<pre class='full'>hello
+world</pre>
+<pre class='full'>hello</pre>
+<div class='full'>hello <br> world</div>
+so if a-b, a-c and b-c exist, then it is falsy
+otherwise true
+That&#39;s correct
+@NewPosts STATUS
+<pre class='full'>RUNNING: [1] 1 1
+
+[07:27:03] request: chat.stackexchange.com/chats/124926/messages/new
+[07:27:03] request: chat.stackexchange.com/messages/ack
+[07:28:51] status: 1</pre>
+<pre class='full'>RUNNING: [1] 1 1
+
+[03:21:40] request: chat.stackexchange.com/messages/ack
+[03:27:03] request: chat.stackexchange.com/chats/124926/messages/new
+[03:27:03] request: chat.stackexchange.com/messages/ack</pre>
+so basically existence of a 3-cycle &lt;=&gt; falsy, like dlosc suggested :p
+Yes, but you can make it much more compact than that
+hmm
+also yeah my code was previously checking if the # of unique elements around each intersection was even or 1
+in other words, 1, 2, or 4, or just &quot;not 3&quot;, lol...
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : d8038a4ee02661cb1d9fc255b4fbcdfa'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/4c45682d16bc46d0a0de8ea2cbc48106"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/61b19e14bb45459482c5374813a750a6"}
+<Log> b'    hello'
+<Log> b''
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 180, in run
+    self.handleActivity(a)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 189, in handleActivity
+    self.onActivity(activity)
+  File "aplbot.py", line 16, in _inner
+    rooms[room].sendMessage("\n".join("    " + code for code in codes))
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 209, in sendMessage
+    r = r.json()
+  File "/usr/local/lib/python3.8/dist-packages/requests/models.py", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 3 column 1 (char 5)
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 4523e986f8315e05bb3325b15714c0c2'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/418f3f1335c349b3b9a8feb16c13f263"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/42e310bd4aad4175a6c1572e54deba58"}
+<Log> b'    e'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : f24e0ca8c1b164dd40f6516a68db71f4'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/4299669b81f740e3a2a2f4ba8a0eb919"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/7aca583e6412472f9c16b668bd3420b7"}
+<Log> b'    e'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+1234<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 01232da038cf6374fed3fa2e58032197'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/265559f8bfca425a9272c912fc44fcf1"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/9a486bbdb9fd4b9990081f628ffd4053"}
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 8015886bf7c9932a82db26e8a4cf31ab'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/fb3532ec9a40406c94409afed7e736c8"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/5288bd48939b4e25836e7ef94362b9cf"}
+<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>
+<Log> b'    e'
+<pre class='full'>e</pre>
+<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d
+The failing testcase has something to tell you
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : f0938bbf6514effcc13d422431f65add'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/ae394e36be304330b7533887ab944675"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/188df8313f1047d4bb15be958c41f38d"}
+<code>⎕&larr;a</code> ⎕&larr;b <code>⎕&larr;c</code> ⋄d <code>⋄e</code>
+<Log> b'    a\n    c\n    e'
+<pre class='full'>a
+c
+e</pre>
+<code>⎕&larr;a</code>
+<Log> b'    a'
+<pre class='full'>a</pre>
+<pre class='full'>hello
+world</pre>
+<pre class='full'>&lt;code&gt;hello&lt;/code&gt;</pre>
+<pre class='full'>⎕&larr;hello
+⋄world</pre>
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : a5c5956f637f450ed7995a5798b276f7'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/23f12f8d63db4a84b9093b5555008744"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/f9a369dd4f7d407d80c38c1765a6bc1c"}
+<pre class='full'>1234
+⎕&larr;hello
+abcd
+⋄world
+efgh</pre>
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 632a78facc6a7d461253b20b9201c9d9'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/19ec239b3c5645a7a3b7877242705597"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/3580f2b6d9f34dfeb62c51536d173cee"}
+a
+<pre class='full'>1234
+⎕&larr;hello
+abcd
+⋄world
+efgh</pre>
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 741e779e4c6bc855564c086b3ef6a171'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/b9913e8e503c40aaaa5208bf0d3dfb86"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/bd88a52ebacb4802b65dfdfd5275abfb"}
+a
+<pre class='full'>1234
+⎕&larr;hello
+abcd
+⋄world
+efgh</pre>
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py ls[K
+[0m[01;34m1[0m  [01;34m52405[0m  aplbotlog.txt  aplbot.py  chatbot.py  config.json  Credidentials  [01;34mlogs[0m  [01;34m__pycache__[0m
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ 1[Klspython3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 901fe1a96e37cf81160c7f37d7b32482'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/586686ee133e45a8819a43ecb9d95e87"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/756fa15cd357404cbec2125dc757d1a4"}
+<pre class='full'>1234
+⎕&larr;hello
+abcd
+⋄world
+efgh</pre>
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 180, in run
+    self.handleActivity(a)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 189, in handleActivity
+    self.onActivity(activity)
+  File "aplbot.py", line 16, in _inner
+    for line in map(str.strip, x["content"][18:-6].spltit("\n")):
+AttributeError: 'str' object has no attribute 'spltit'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 39abf525e23ba559215ae4d748f5d83e'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/7d92456ea879489fb02f8ac5b92940df"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/d8ccd9530db94dda9b5ae002bc3472fb"}
+---
+<pre class='full'>1234
+⎕&larr;hello
+abcd
+⋄world
+efgh</pre>
+1234
+⎕&larr;hello
+abcd
+⋄world
+efgh
+<Log> b'    hello\n    world'
+<pre class='full'>hello
+world</pre>
+hello
+world
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : ee519a801bc9809094d0e473e52941b9'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/a39c1707619144e788b2452066d2043e"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/105dfb5901c24260bb9129334c1521bc"}
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "aplbot.py", line 44, in _inner
+    }, data = json.dumps(["", 0, "", message[2:]]))
+NameError: name 'message' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 180, in run
+    self.handleActivity(a)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 189, in handleActivity
+    self.onActivity(activity)
+  File "aplbot.py", line 56, in _inner
+    rooms[room].sendMessage(f":{x['message_id']} unexpected bot error running this code; if this persists, please contact a developer")
+TypeError: tuple indices must be integers or slices, not str
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : f301ccd4d5012ee9aef7ad62a03d72c6'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/a98caeaf0d2642d4a91fecf4088521c5"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/b861d952cb054b348c516e2a2e28b622"}
+<Log> b':58419037 unexpected bot error running this code; if this persists, please contact a developer'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : db7e0f98eb2ba77ff6ec5e067410d574'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/416219cf165645eb926878bc4d681b8e"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/f0f4dbf681fb45e3b58281c833cc541a"}
+<Log> b':58419042 unexpected bot error running this code; if this persists, please contact a developer'
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 180, in run
+    self.handleActivity(a)
+  File "/home/hyper-neutrino/workspace/apl-bot/chatbot.py", line 189, in handleActivity
+    self.onActivity(activity)
+  File "aplbot.py", line 44, in _inner
+    }, data = json.dumps(["", 0, "", message[2:]]))
+NameError: name 'message' is not defined
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py ls[K
+[0m[01;34m1[0m  [01;34m52405[0m  aplbotlog.txt  aplbot.py  chatbot.py  config.json  Credidentials  [01;34mlogs[0m  [01;34m__pycache__[0m
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ lspython3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Caught by CAPTCHA'
+<Log> b'Loading SE profile - FAILURE -  aborting'
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 0c069203ad04ec1e18e0e580e1127223'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/33adc56ea05c47b8ac0a968b7657bcbd"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/bef67953f07f4f1bacaa96670c6b1bdf"}
+<Log> b'    hello\n    world\n@hyper-neutrino'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 9a26cb2d1e8a0b6e4c662fea332b6cc1'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/cf1ca7ea07f94a66a0af2ccf48ba711b"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/6a1b564b775d420b885f7f2c62e38e71"}
+<Log> b'    hello\n    world\n    @hyper-neutrino'
+hello
+world
+@hyper-neutrino
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : b924ee53a23f73693eafb6d0492aaba3'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/8e8e91cf336748d19c1a6d579620d10a"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/57603d074d034f37a395d64eb3cbc783"}
+<Log> b'    hello\n    world\n    \n    @hyper-neutrino'
+hello
+world
+
+@hyper-neutrino
+⎕&larr;&#39;hello&#39;
+⎕&larr;&#39;world&#39;
+<Log> b'    hello\n    world\n    \n    @hyper-neutrino'
+⎕&larr;&#39;hello&#39;
+<Log> b':58419091 `hello`'
+⎕&larr;&#39;hello&#39;
+⎕&larr;&#39;world&#39;
+<Log> b'    hello\n    world\n    \n    @hyper-neutrino'
+hello
+world
+
+@hyper-neutrino
+This line shouldn&#39;t be run.
+⎕&larr;&#39;hello&#39;
+Neither should this line, but the one before and after it should.
+⋄&#39;world&#39;
+<Log> b'    hello\n    world\n    \n    @hyper-neutrino'
+hello
+world
+
+@hyper-neutrino
+<Log> b'    1 2 3\n    4 5 6\n    7 8 9\n    1 2\n    3 4\n    \n    @hyper-neutrino'
+1 2 3
+4 5 6
+7 8 9
+1 2
+3 4
+
+@hyper-neutrino
+<Log> b':58419116 `<empty response>`'
+^CException ignored in: <module 'threading' from '/usr/lib/python3.8/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 1388, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ ^C
+hyper-neutrino@ubuntu:~/workspace/apl-bot$ [H[Jhyper-neutrino@ubuntu:~/workspace/apl-bot$ python3 aplbot.py 
+<Log> b'--- NEW LOGIN ---'
+Password for the encrypted credidentials ? 
+<Log> b'Credidentials retrieved successfully'
+<Log> b'Logging to SE - OK'
+<Log> b'Loading SE profile - OK'
+<Log> b'Got chat fkey : 9146bafc63aeb21871d696660d942a23'
+<Log> b'Login to the SE chat successful'
+{"url":"wss://chat.sockets.stackexchange.com/events/1/72ac15c3d45741cf8812371a6f3829ec"}
+{"url":"wss://chat.sockets.stackexchange.com/events/52405/be8062878bf845fbab00678be952bd35"}
