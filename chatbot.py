@@ -177,7 +177,10 @@ class Room():
                                 if "r{}".format(self.id) in a:
                                         a=a["r{}".format(self.id)]
                                         if a!={}:
-                                                self.handleActivity(a)
+                                                try:
+                                                        self.handleActivity(a)
+                                                except:
+                                                        pass
         
         def leave(self):
                 log("Left room {}".format(self.id))
