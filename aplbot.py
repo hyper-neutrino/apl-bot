@@ -4,7 +4,7 @@ from chatbot import *
 
 with open("config.json", "r") as f:
   config = json.load(f)
-  
+
 ws = {
   " ": ["spaces", "space"],
   "\t": ["tabs", "tab"]
@@ -112,6 +112,10 @@ def handler(room):
               rooms[room].editMessage(response, hooks[x["message_id"]])
             else:
               hooks[x["message_id"]] = rooms[room].sendMessage(response)
+        elif x["event_type"] == 10 and x["room_id"] == room:
+            if x["user_id"] in [296403, 319249]: return
+            if x["message_id"] in hooks:
+                rooms[room].deleteMessage(hooks[x["message_id"]])
   return _inner
 
 chatbot = Chatbot()
