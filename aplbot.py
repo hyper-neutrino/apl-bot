@@ -113,6 +113,7 @@ def handler(room):
             else:
               hooks[x["message_id"]] = rooms[room].sendMessage(response)
         elif x["event_type"] == 10 and x["room_id"] == room:
+            print("Message deleted:", x["message_id"])
             if x["user_id"] in [296403, 319249]: return
             if x["message_id"] in hooks:
                 rooms[room].deleteMessage(hooks[x["message_id"]])
