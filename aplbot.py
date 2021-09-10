@@ -32,9 +32,9 @@ def response_for(x):
     item = "⋄ " if x["content"].startswith("⋄") else "⎕←"
     return rf":{x['message_id']} Did you forget to add backticks around your code (`\`{item}code\``)? You can edit your message and I will edit my reply."
   if "`⎕&larr" in x["content"]:
-    return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)?"
+    return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)? You can edit your message and I will edit my reply."
   if "`⋄" in x["content"]:
-    return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)?"
+    return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
   if x["content"].startswith("<pre class='full'>") and x["content"].endswith("</pre>"):
     for line in map(str.strip, x["content"][18:-6].split("\n")):
       print(line)

@@ -100,9 +100,11 @@ def get_credidentials(decrypt_key = None): # gets credidentials from encrypted f
                         if not goodPassword:
                                 log('Bad password / corrupted file, try again.')
         else: # No credidentials are stored, ask for new ones
-                email = str(input(("Email ? ")))  # SE email and passwords. Don't leave them as plain text.
-                password = getpass.getpass("Password ? ")
-                storeEncrypted=str(input("Do you want to encrypt and store those credidentials for a quicker access ? (y/n): ")).lower()
+                with open("../configurations/apl-bot.json", "r") as f:
+                    data = json.load(f)
+                    email = data["email"]
+                    password = data["password"]
+                storeEncrypted="n"#str(input("Do you want to encrypt and store those credidentials for a quicker access ? (y/n): ")).lower()
                 if (storeEncrypted=='y' or storeEncrypted=='yes' or storeEncrypted is None or storeEncrypted==""):
                         goodPassword=False
                         hash_password1 = ""
