@@ -36,12 +36,13 @@ def response_for(x):
   if "`⋄" in x["content"]:
     return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
   if x["content"].startswith("<pre class='full'>") and x["content"].endswith("</pre>"):
-    for line in map(str.strip, x["content"][18:-6].split("\n")):
-      print(line)
-      if line.startswith("⎕&larr;"):
-        codes.append(preparse(line))
-      if line.startswith("⋄"):
-        codes.append(preparse(line[1:]))
+    lines = list(map(str.strip, x["content"][18:-6].split("\n")))
+    if lines[0].startswith("⎕&larr;") or lines[0].startswith("⋄"):
+      for line in lines:
+        if line.startswith("⎕&larr;"):
+          codes.append(preparse(line))
+        if line.startswith("⋄"):
+          codes.append(preparse(line[1:]))
   else:
     for block in re.findall(r"<code>((⎕&larr;|⋄).*?)</code>", x["content"]):
       if block[0] == "⎕&larr;" or block[0] == "⋄": continue
@@ -49,9 +50,6 @@ def response_for(x):
   if not codes:
     return
   code = html.unescape("⋄".join(codes))
-  print("--- EXECUTING ---")
-  print(code)
-  print("-----------------")
   try:
     response = requests.post("https://tryapl.org/Exec", headers = {
       "Content-Type": "application/json; charset=utf-8"
