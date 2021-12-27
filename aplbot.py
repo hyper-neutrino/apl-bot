@@ -37,13 +37,13 @@ def response_for(x):
         if line.startswith("⋄"):
           codes.append(preparse(line[1:]))
   else:
-      if x["content"].startswith("⎕&larr;") or x["content"].startswith("⋄"):
-          item = "⋄ " if x["content"].startswith("⋄") else "⎕←"
-          return rf":{x['message_id']} Did you forget to add backticks around your code (`\`{item}code\``)? You can edit your message and I will edit my reply."
-      if "`⎕&larr" in x["content"]:
-          return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)? You can edit your message and I will edit my reply."
-      if "`⋄" in x["content"]:
-          return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
+    if x["content"].startswith("⎕&larr;") or x["content"].startswith("⋄"):
+      item = "⋄ " if x["content"].startswith("⋄") else "⎕←"
+      return rf":{x['message_id']} Did you forget to add backticks around your code (`\`{item}code\``)? You can edit your message and I will edit my reply."
+    if "`⎕&larr" in x["content"]:
+      return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)? You can edit your message and I will edit my reply."
+    if "`⋄" in x["content"]:
+      return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
     for block in re.findall(r"<code>((⎕&larr;|⋄).*?)</code>", x["content"]):
       if block[0] == "⎕&larr;" or block[0] == "⋄": continue
       codes.append(preparse(html.unescape(block[0])))
