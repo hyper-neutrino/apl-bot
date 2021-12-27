@@ -28,13 +28,6 @@ def response_for(x):
   if x["content"] in [")about", "<code>)about</code>", "<pre class='full'>)about</pre>"]:
     return f":{x['message_id']}" + r" To run APL code, write code blocks starting with `⎕←` or `⋄` or write a multi-line code block and prepend `⎕←` or `⋄` to lines you wish to run. All matching groups / lines will be joined by `⋄` and run via TryAPL, and the output will be posted here. To format a codeblock, write `\`code\``, or for a multi-line code block, use Shift+Enter to type multiple lines and press Ctrl-K, press the 'fixed font' button, or prepend four spaces to each line."
   codes = []
-  if x["content"].startswith("⎕&larr;") or x["content"].startswith("⋄"):
-    item = "⋄ " if x["content"].startswith("⋄") else "⎕←"
-    return rf":{x['message_id']} Did you forget to add backticks around your code (`\`{item}code\``)? You can edit your message and I will edit my reply."
-  if "`⎕&larr" in x["content"]:
-    return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)? You can edit your message and I will edit my reply."
-  if "`⋄" in x["content"]:
-    return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
   if x["content"].startswith("<pre class='full'>") and x["content"].endswith("</pre>"):
     lines = list(map(str.strip, x["content"][18:-6].split("\n")))
     if lines[0].startswith("⎕&larr;") or lines[0].startswith("⋄"):
@@ -44,6 +37,13 @@ def response_for(x):
         if line.startswith("⋄"):
           codes.append(preparse(line[1:]))
   else:
+      if x["content"].startswith("⎕&larr;") or x["content"].startswith("⋄"):
+          item = "⋄ " if x["content"].startswith("⋄") else "⎕←"
+          return rf":{x['message_id']} Did you forget to add backticks around your code (`\`{item}code\``)? You can edit your message and I will edit my reply."
+      if "`⎕&larr" in x["content"]:
+          return rf":{x['message_id']} Did you forget a closing backtick (`\`⎕←code\``)? You can edit your message and I will edit my reply."
+      if "`⋄" in x["content"]:
+          return rf":{x['message_id']} Did you forget a closing backtick (`\`⋄code\``)? You can edit your message and I will edit my reply."
     for block in re.findall(r"<code>((⎕&larr;|⋄).*?)</code>", x["content"]):
       if block[0] == "⎕&larr;" or block[0] == "⋄": continue
       codes.append(preparse(html.unescape(block[0])))
